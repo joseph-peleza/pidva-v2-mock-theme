@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, Input, Tag, Tooltip} from "antd";
+import {Card, Input, Tag, Tooltip} from "antd";
+import Icon from "@ant-design/icons";
 
 class Dynamic extends React.Component {
   state = {

@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {AutoComplete, Button, Card, Cascader, Checkbox, Col, Form, Icon, Input, Row, Select, Tooltip} from "antd";
+import {AutoComplete, Button, Card, Cascader, Checkbox, Col, Form, Input, Row, Select, Tooltip} from "antd";
+import Icon from "@ant-design/icons";
 
 const FormItem = Form.Item;
 const Option = Select.Option;

@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, message, Upload} from "antd";
+import {Card, message, Upload} from "antd";
+import Icon from "@ant-design/icons";
 
 const Dragger = Upload.Dragger;
 

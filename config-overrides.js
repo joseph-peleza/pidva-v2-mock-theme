@@ -38,8 +38,8 @@ module.exports = override(
   addLessLoader({
     javascriptEnabled: true,
     modifyVars: {
-      '@primary-color': '#038fde',
-      '@secondary-color': '#fa8c16',
+      '@primary-color': '#0a4157',
+      '@secondary-color': '#d8e95d',
       '@text-color': '#545454',
       '@heading-color': '#535353',
       '@nav-dark-bg': '#003366',

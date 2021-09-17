@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, Switch} from "antd";
+import {Card, Switch} from "antd";
+import Icon from "@ant-design/icons";
 
 const SwitchTextIcon = () => {
   return (

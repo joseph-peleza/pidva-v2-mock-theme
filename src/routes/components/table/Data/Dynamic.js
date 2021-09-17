@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Divider, Form, Icon, Radio, Switch, Table} from "antd";
+import {Card, Divider, Form, Radio, Switch, Table} from "antd";
+import Icon from "@ant-design/icons";
 
 const FormItem = Form.Item;
 

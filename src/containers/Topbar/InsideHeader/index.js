@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Button, Dropdown, Icon, Layout, Menu, message, Popover} from 'antd';
+import {Button, Dropdown, Layout, Menu, message, Popover} from 'antd';
+import Icon from "@ant-design/icons";
 import {connect} from "react-redux";
 import CustomScrollbars from "util/CustomScrollbars";
 

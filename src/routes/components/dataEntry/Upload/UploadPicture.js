@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, Modal, Upload} from "antd";
+import {Card, Modal, Upload} from "antd";
+import Icon from "@ant-design/icons";
 
 class UploadPicture extends React.Component {
   state = {

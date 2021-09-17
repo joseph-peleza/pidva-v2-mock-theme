@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Button, Card, Icon, Radio} from "antd";
+import {Button, Card, Radio} from "antd";
+import Icon from "@ant-design/icons";
 
 class Size extends Component {
   state = {

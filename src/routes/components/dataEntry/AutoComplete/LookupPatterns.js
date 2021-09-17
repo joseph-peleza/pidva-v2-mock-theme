@@ -1,5 +1,6 @@
 import React from "react";
-import {AutoComplete, Card, Icon, Input} from "antd";
+import {AutoComplete, Card, Input} from "antd";
+import Icon from "@ant-design/icons";
 
 const Option = AutoComplete.Option;
 const OptGroup = AutoComplete.OptGroup;

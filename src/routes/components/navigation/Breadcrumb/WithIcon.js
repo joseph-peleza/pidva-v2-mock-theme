@@ -1,5 +1,6 @@
 import React from "react";
-import {Breadcrumb, Card, Icon} from "antd";
+import {Breadcrumb, Card } from "antd";
+import Icon from "@ant-design/icons";
 
 const WithIcon = () => {
   return (
