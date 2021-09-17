@@ -1,5 +1,7 @@
 import React from "react";
-import {Card, Divider, Form, Radio, Switch, Table} from "antd";
+import { Form } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
+import { Card, Divider, Radio, Switch, Table } from "antd";
 import Icon from "@ant-design/icons";
 
 const FormItem = Form.Item;
