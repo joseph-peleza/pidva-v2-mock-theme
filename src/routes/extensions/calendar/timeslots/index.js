@@ -1,17 +1,17 @@
 import React from "react";
-import  {Calendar}  from "react-big-calendar";
+import BigCalendar from "react-big-calendar";
 import moment from "moment";
 
 import events from "../events";
 
-Calendar.setLocalizer(
-  Calendar.momentLocalizer(moment)
+BigCalendar.setLocalizer(
+  BigCalendar.momentLocalizer(moment)
 );
 const Timeslots = (props) => {
   return (
     <div className="gx-main-content">
       <div className="gx-rbc-calendar">
-        <Calendar
+        <BigCalendar
           {...props}
           events={events}
           step={15}

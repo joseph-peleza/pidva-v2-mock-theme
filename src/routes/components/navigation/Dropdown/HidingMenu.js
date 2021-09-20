@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import {Card, Dropdown, Menu} from "antd";
-import Icon from "@ant-design/icons";
+import {Card, Dropdown, Icon, Menu} from "antd";
 
 class HidingMenu extends Component {
   state = {

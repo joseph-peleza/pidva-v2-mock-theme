@@ -1,6 +1,5 @@
 import React from "react";
-import {Button, Card, Upload} from "antd";
-import Icon from "@ant-design/icons";
+import {Button, Card, Icon, Upload} from "antd";
 
 const fileList = [{
   uid: -1,

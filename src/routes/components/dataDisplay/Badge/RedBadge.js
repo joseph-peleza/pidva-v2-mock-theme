@@ -1,6 +1,5 @@
 import React from "react";
-import {Badge, Card} from "antd";
-import Icon from "@ant-design/icons";
+import {Badge, Card, Icon} from "antd";
 
 const RedBadge = () => {
   return (

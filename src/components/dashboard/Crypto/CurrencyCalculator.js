@@ -1,7 +1,5 @@
 import React from "react";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Button, Input, Select } from "antd";
+import {Button, Form, Input, Select} from "antd";
 import Widget from "components/Widget/index";
 
 const Option = Select.Option;

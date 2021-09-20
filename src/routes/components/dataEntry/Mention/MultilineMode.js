@@ -1,7 +1,5 @@
 import React from "react";
-import { Mention } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Card } from "antd";
+import {Card, Mention} from "antd";
 
 const {toString} = Mention;
 

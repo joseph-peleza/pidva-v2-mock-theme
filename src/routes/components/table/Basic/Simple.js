@@ -1,6 +1,5 @@
 import React from "react";
-import {Card, Divider, Table} from "antd";
-import Icon from "@ant-design/icons";
+import {Card, Divider, Icon, Table} from "antd";
 
 const columns = [
   {

@@ -1,6 +1,5 @@
 import React from "react";
-import {Badge, Button, Card, Switch} from "antd";
-import Icon from "@ant-design/icons";
+import {Badge, Button, Card, Icon, Switch} from "antd";
 
 const ButtonGroup = Button.Group;
 

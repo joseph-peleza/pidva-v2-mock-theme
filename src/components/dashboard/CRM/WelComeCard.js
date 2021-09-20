@@ -1,6 +1,5 @@
 import React from "react";
-// import {Icon} from "antd";
-import Icon from "@ant-design/icons";
+import {Icon} from "antd";
 
 const WelComeCard = () => {
 

@@ -1,7 +1,5 @@
 import React from "react";
-import { Mention } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Avatar, Card } from "antd";
+import {Avatar, Card, Mention} from "antd";
 
 const Nav = Mention.Nav;
 

@@ -1,8 +1,5 @@
 import React from "react";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Button, Checkbox, Input, message } from "antd";
-import Icon from "@ant-design/icons";
+import {Button, Checkbox, Form, Icon, Input, message} from "antd";
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
 

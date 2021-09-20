@@ -1,6 +1,5 @@
 import React from "react";
-import {Button, Card, notification} from "antd";
-import Icon from "@ant-design/icons";
+import {Button, Card, Icon, notification} from "antd";
 
 const openNotification = () => {
   notification.open({

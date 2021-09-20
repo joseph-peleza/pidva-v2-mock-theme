@@ -1,6 +1,5 @@
 import React from "react";
-import {Card, Slider} from "antd";
-import Icon from "@ant-design/icons";
+import {Card, Icon, Slider} from "antd";
 
 class SliderWithIcon extends React.Component {
   state = {

@@ -1,7 +1,5 @@
 import React from "react";
-import { Mention } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Button, Card, Popover } from "antd";
+import {Button, Card, Mention, Popover} from "antd";
 
 const {toString, toContentState} = Mention;
 

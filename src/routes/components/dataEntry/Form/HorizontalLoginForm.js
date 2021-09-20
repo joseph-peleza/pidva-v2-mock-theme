@@ -1,9 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Button, Card, Checkbox, Input, message } from "antd";
-import Icon from "@ant-design/icons";
+import {Button, Card, Checkbox, Form, Icon, Input, message} from "antd";
 
 import {
   hideMessage,

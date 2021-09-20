@@ -1,6 +1,5 @@
 import React from "react";
-import {Button, Card } from "antd";
-import Icon, { CloudDownloadOutlined, CloudOutlined } from '@ant-design/icons';
+import {Button, Card, Icon} from "antd";
 
 const ButtonGroup = Button.Group;
 
@@ -33,8 +32,8 @@ const ButtonGroups = () => {
         </Button>
       </ButtonGroup>
       <ButtonGroup>
-        <Button type="primary" icon={<CloudOutlined />}/>
-        <Button type="primary" icon={<CloudDownloadOutlined />}/>
+        <Button type="primary" icon="cloud"/>
+        <Button type="primary" icon="cloud-download"/>
       </ButtonGroup>
     </Card>
   );
