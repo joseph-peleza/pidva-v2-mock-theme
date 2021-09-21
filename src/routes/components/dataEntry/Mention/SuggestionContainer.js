@@ -1,7 +1,7 @@
 import React from "react";
-import {Button, Card, Mention, Popover} from "antd";
+import {Button, Card, Mentions, Popover} from "antd";
 
-const {toString, toContentState} = Mention;
+const {toString, toContentState} = Mentions;
 
 function onChange(editorState) {
   console.log(toString(editorState));
@@ -23,7 +23,7 @@ class SuggestionContainer extends React.Component {
 
   render() {
     const mention = (
-      <Mention
+      <Mentions
         ref={ele => this.mention = ele}
         style={{width: '100%'}}
         onChange={onChange}

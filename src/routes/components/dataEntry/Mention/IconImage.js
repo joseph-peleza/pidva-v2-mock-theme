@@ -1,7 +1,7 @@
 import React from "react";
-import {Avatar, Card, Mention} from "antd";
+import {Avatar, Card, Mentions} from "antd";
 
-const Nav = Mention.Nav;
+const Nav = Mentions.Nav;
 
 const webFrameworks = [
   {name: 'React', type: 'JavaScript', icon: 'https://zos.alipayobjects.com/rmsportal/LFIeMPzdLcLnEUe.svg'},
@@ -40,7 +40,7 @@ class IconImage extends React.Component {
     const {suggestions} = this.state;
     return (
       <Card className="gx-card" title="Icon Image">
-        <Mention
+        <Mentions
           style={{width: '100%'}}
           suggestions={suggestions}
           onSearchChange={this.onSearchChange}

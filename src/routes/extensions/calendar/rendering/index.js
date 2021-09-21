@@ -1,11 +1,11 @@
 import React from "react";
-import BigCalendar from "react-big-calendar";
+import { Calendar } from "react-big-calendar";
 import moment from "moment";
 
 import events from "../events";
 
-BigCalendar.setLocalizer(
-  BigCalendar.momentLocalizer(moment)
+Calendar.setLocalizer(
+  Calendar.momentLocalizer(moment)
 );
 
 function Event({event}) {
@@ -31,7 +31,7 @@ const Rendering = () => {
   return (
     <div className="gx-main-content">
       <div className="gx-rbc-calendar">
-        <BigCalendar
+        <Calendar
           events={events}
           defaultDate={new Date(2015, 3, 1)}
           defaultView='agenda'

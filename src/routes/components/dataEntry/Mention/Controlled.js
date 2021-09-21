@@ -1,7 +1,7 @@
 import React from "react";
-import {Card, Mention} from "antd";
+import {Card, Mentions} from "antd";
 
-const {toContentState} = Mention;
+const {toContentState} = Mentions;
 
 class Controlled extends React.Component {
   state = {
@@ -20,7 +20,7 @@ class Controlled extends React.Component {
   render() {
     return (
       <Card className="gx-card" title="Controlled">
-        <Mention
+        <Mentions
           ref={ele => this.mention = ele}
           suggestions={['afc163', 'benjycui', 'yiminghe', 'RaoHai', '中文', 'にほんご']}
           value={this.state.value}

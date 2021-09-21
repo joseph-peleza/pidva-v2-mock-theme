@@ -1,18 +1,18 @@
 import React from "react";
-import BigCalendar from "react-big-calendar";
+import { Calendar } from "react-big-calendar";
 import moment from "moment";
 import events from "../events";
 
-let allViews = Object.keys(BigCalendar.Views).map(k => BigCalendar.Views[k]);
+let allViews = Object.keys(Calendar.Views).map(k => Calendar.Views[k]);
 
-BigCalendar.setLocalizer(
-  BigCalendar.momentLocalizer(moment)
+Calendar.setLocalizer(
+  Calendar.momentLocalizer(moment)
 );
 const Basic = (props) => {
   return (
     <div className="gx-main-content">
       <div className="gx-rbc-calendar">
-        <BigCalendar
+        <Calendar
           {...props}
           events={events}
           views={allViews}
