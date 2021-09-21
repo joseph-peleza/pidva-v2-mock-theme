@@ -1,6 +1,7 @@
 import React, {Component} from "react";
-import {Button, Card, Form, Input} from "antd";
-import { Icon } from "@ant-design/compatible";
+import { Button, Card, Input } from "antd";
+import { Form, Icon } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
 
 import "./dynamicFormItem.less";
 

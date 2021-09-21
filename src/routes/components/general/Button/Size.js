@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import { DownloadOutlined } from '@ant-design/icons';
 import {Button, Card, Radio} from "antd";
 import { Icon } from "@ant-design/compatible";
 
@@ -26,8 +27,8 @@ class Size extends Component {
         <Button type="dashed" size={size}>Dashed</Button>
         <Button type="danger" size={size}>Danger</Button>
         <br/>
-        <Button type="primary" shape="circle" icon="download" size={size}/>
-        <Button type="primary" icon="download" size={size}>Download</Button>
+        <Button type="primary" shape="circle" icon={<DownloadOutlined />} size={size}/>
+        <Button type="primary" icon={<DownloadOutlined />} size={size}>Download</Button>
         <br/>
         <Button.Group size={size}>
           <Button type="primary">

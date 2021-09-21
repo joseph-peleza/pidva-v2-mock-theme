@@ -1,4 +1,5 @@
 import React from "react";
+import { CloudDownloadOutlined, CloudOutlined } from '@ant-design/icons';
 import {Button, Card } from "antd";
 import { Icon } from "@ant-design/compatible";
 
@@ -33,8 +34,8 @@ const ButtonGroups = () => {
         </Button>
       </ButtonGroup>
       <ButtonGroup>
-        <Button type="primary" icon="cloud"/>
-        <Button type="primary" icon="cloud-download"/>
+        <Button type="primary" icon={<CloudOutlined />}/>
+        <Button type="primary" icon={<CloudDownloadOutlined />}/>
       </ButtonGroup>
     </Card>
   );
