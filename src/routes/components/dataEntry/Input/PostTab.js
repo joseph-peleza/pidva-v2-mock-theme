@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, Input, Select} from "antd";
+import {Card, Input, Select} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 const Option = Select.Option;
 

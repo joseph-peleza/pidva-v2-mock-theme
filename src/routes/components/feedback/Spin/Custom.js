@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, Spin} from "antd";
+import {Card, Spin} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 const antIcon = <Icon type="loading" style={{fontSize: 24}} spin/>;
 

@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Dropdown, Icon, Menu} from "antd";
+import {Card, Dropdown, Menu} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 const SubMenu = Menu.SubMenu;
 

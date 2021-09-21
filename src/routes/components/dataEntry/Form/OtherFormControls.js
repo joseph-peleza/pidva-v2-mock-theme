@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Button, Card, Form, Icon, InputNumber, Radio, Rate, Select, Slider, Switch, Upload} from "antd";
+import {Button, Card, Form, InputNumber, Radio, Rate, Select, Slider, Switch, Upload} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 import "./otherFormControls.less";
 

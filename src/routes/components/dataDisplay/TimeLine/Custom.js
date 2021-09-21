@@ -1,5 +1,6 @@
 import React from "react";
-import {Card, Icon, Timeline} from "antd";
+import {Card, Timeline} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 const Custom = () => {
     return (

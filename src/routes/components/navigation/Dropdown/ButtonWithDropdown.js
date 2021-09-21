@@ -1,5 +1,6 @@
 import React from "react";
-import {Button, Card, Dropdown, Icon, Menu, message} from "antd";
+import {Button, Card, Dropdown, Menu, message} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 function handleButtonClick(e) {
   message.info('Click on left button.');

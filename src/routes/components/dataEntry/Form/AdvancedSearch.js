@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Button, Card, Col, Form, Icon, Input, Row} from "antd";
+import {Button, Card, Col, Form, Input, Row} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 
 const FormItem = Form.Item;

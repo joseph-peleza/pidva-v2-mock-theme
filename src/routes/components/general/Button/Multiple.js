@@ -1,5 +1,6 @@
 import React, {Component} from "react";
-import {Button, Card, Dropdown, Icon, Menu} from "antd";
+import {Button, Card, Dropdown, Menu} from "antd";
+import { Icon } from "@ant-design/compatible";
 
 function handleMenuClick(e) {
   console.log('click', e);
