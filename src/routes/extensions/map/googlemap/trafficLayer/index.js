@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "antd";
 
 import TrafficLayerEx from "./Components/TrafficLayerEx";
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 
 const TrafficLayer = () => {
   return (

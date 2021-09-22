@@ -8,9 +8,9 @@ import Basic from "./Basic/index";
 import Classic from "./Classic/index";
 import Standard from "./Standard/index";
 import {basicTestimonialsData, testimonialsData} from "./testimonialsData";
-import IntlMessages from "util/IntlMessages";
-import CardBox from "components/CardBox/index";
-import ContainerHeader from "components/ContainerHeader/index";
+import IntlMessages from "src/util/IntlMessages";
+import CardBox from "src/components/CardBox/index";
+import ContainerHeader from "src/components/ContainerHeader/index";
 
 class Testimonials extends React.Component {
 

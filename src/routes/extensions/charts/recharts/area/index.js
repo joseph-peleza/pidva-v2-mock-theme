@@ -6,8 +6,8 @@ import StackedAreaChart from "./Components/StackedAreaChart";
 import PercentAreaChart from "./Components/PercentAreaChart";
 import AreaChartConnectNulls from "./Components/AreaChartConnectNulls";
 import SynchronizedAreaChart from "./Components/SynchronizedAreaChart";
-import ContainerHeader from "components/ContainerHeader";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader";
+import IntlMessages from "src/util/IntlMessages";
 
 const AreaChart = ({match}) => {
   return (

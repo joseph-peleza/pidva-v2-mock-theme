@@ -3,7 +3,7 @@ import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Button, Input } from "antd";
 
-import Widget from "components/Widget/index";
+import Widget from "src/components/Widget/index";
 
 
 const Newsletter = () => {

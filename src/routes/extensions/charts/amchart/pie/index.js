@@ -6,8 +6,8 @@ import DonutWithRadialGradient from "./Components/DonutWithRadialGradient";
 import PieChart3D from "./Components/PieChart3D";
 import PieChartWithBrokenDownSlices from "./Components/PieChartWithBrokenDownSlices";
 import SimplePieChart from "./Components/SimplePieChart";
-import ContainerHeader from "components/ContainerHeader";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader";
+import IntlMessages from "src/util/IntlMessages";
 
 
 const PieChart = ({match}) => {

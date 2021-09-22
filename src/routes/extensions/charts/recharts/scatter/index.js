@@ -3,8 +3,8 @@ import {Card, Col, Row} from "antd";
 
 import SimpleScatterChart from "./Components/SimpleScatterChart";
 import ThreeDimScatterChart from "./Components/ThreeDimScatterChart";
-import ContainerHeader from "components/ContainerHeader";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader";
+import IntlMessages from "src/util/IntlMessages";
 
 const Scatter = ({match}) => {
   return (

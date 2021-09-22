@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import {Button, Checkbox, Drawer, message} from "antd";
-import CustomScrollbars from "util/CustomScrollbars";
+import CustomScrollbars from "src/util/CustomScrollbars";
 
 import contactList from "./data/contactList";
-import ContactList from "components/contact/ContactList";
-import AppModuleHeader from "components/AppModuleHeader/index";
-import AddContact from "components/contact/AddContact";
-import IntlMessages from "util/IntlMessages";
+import ContactList from "src/components/contact/ContactList";
+import AppModuleHeader from "src/components/AppModuleHeader/index";
+import AddContact from "src/components/contact/AddContact";
+import IntlMessages from "src/util/IntlMessages";
 
 let contactId = 723812738;
 

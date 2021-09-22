@@ -2,7 +2,7 @@ import React from "react";
 import {Button} from "antd";
 import StarRatingComponent from "react-star-rating-component";
 
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 
 const ProductItem = ({product, grid}) => {
   const {thumb, name, price, mrp, offer, variant, rating, description} = product;

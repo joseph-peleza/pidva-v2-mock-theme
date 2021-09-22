@@ -1,8 +1,8 @@
 import React from "react";
 import {Timeline} from "antd";
 
-import Widget from "components/Widget";
-import IntlMessages from "util/IntlMessages";
+import Widget from "src/components/Widget";
+import IntlMessages from "src/util/IntlMessages";
 import {changeLogs} from "./data";
 import ChangeLogItem from "./ChangeLogItem";
 

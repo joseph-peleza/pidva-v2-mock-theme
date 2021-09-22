@@ -2,14 +2,14 @@ import React from "react";
 import {Col, Row} from "antd";
 import {Area, AreaChart, Line, LineChart, ResponsiveContainer, Tooltip} from "recharts";
 
-import IconWithTextCard from "components/Metrics/IconWithTextCard";
-import ChartCard from "components/Metrics/ChartCard";
-import GrowthCard from "components/Metrics/GrowthCard";
-import EcommerceStatus from "components/Metrics/EcommerceStatus";
-import TrafficRaiseCard from "components/Metrics/TrafficRaiseCard";
-import TotalEncomeCard from "components/Metrics/TotalEncomeCard";
-import QueriesCard from "components/Metrics/QueriesCard";
-import Auxiliary from "util/Auxiliary";
+import IconWithTextCard from "src/components/Metrics/IconWithTextCard";
+import ChartCard from "src/components/Metrics/ChartCard";
+import GrowthCard from "src/components/Metrics/GrowthCard";
+import EcommerceStatus from "src/components/Metrics/EcommerceStatus";
+import TrafficRaiseCard from "src/components/Metrics/TrafficRaiseCard";
+import TotalEncomeCard from "src/components/Metrics/TotalEncomeCard";
+import QueriesCard from "src/components/Metrics/QueriesCard";
+import Auxiliary from "src/util/Auxiliary";
 import {growth2Data, increamentData, increamentRevenueData, lineData2, revenueData, trafficRaiseData} from "./data"
 
 const Metrics = () => {

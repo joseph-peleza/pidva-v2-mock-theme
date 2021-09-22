@@ -14,9 +14,9 @@ import {
   userGoogleSignIn,
   userSignIn,
   userTwitterSignIn
-} from "appRedux/actions/Auth";
-import IntlMessages from "util/IntlMessages";
-import CircularProgress from "components/CircularProgress/index";
+} from "src/appRedux/actions/Auth";
+import IntlMessages from "src/util/IntlMessages";
+import CircularProgress from "src/components/CircularProgress/index";
 
 const FormItem = Form.Item;
 
@@ -61,7 +61,7 @@ class SignIn extends React.Component {
                 <p><IntlMessages id="app.userAuth.getAccount"/></p>
               </div>
               <div className="gx-app-logo">
-                <img alt="example" src={require("assets/images/logo.png")}/>
+                <img alt="example" src={require("src/assets/images/logo.png")}/>
               </div>
             </div>
             <div className="gx-app-login-content">

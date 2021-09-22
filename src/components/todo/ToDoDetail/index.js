@@ -1,10 +1,10 @@
 import React from "react";
 import {Avatar, Badge, Col, DatePicker, Input, Menu, Row} from "antd";
 import Moment from "moment";
-import CustomScrollbars from "util/CustomScrollbars";
+import CustomScrollbars from "src/util/CustomScrollbars";
 
-import labels from "routes/inBuiltApps/Todo/data/labels";
-import users from "routes/inBuiltApps/Todo/data/users";
+import labels from "src/routes/inBuiltApps/Todo/data/labels";
+import users from "src/routes/inBuiltApps/Todo/data/users";
 import ConversationCell from "./ConversationCell";
 
 const {TextArea} = Input;

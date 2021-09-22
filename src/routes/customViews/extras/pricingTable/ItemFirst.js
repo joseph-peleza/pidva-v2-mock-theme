@@ -1,6 +1,6 @@
 import React from "react";
 import {Button} from "antd";
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 
 const
   PriceItem = ({styleName, headerStyle, itemStyle, footerStyle}) => {

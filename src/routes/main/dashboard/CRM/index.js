@@ -1,21 +1,21 @@
 import React from "react";
 import {Col, Row} from "antd";
 
-import TaskList from "components/dashboard/CRM/TaskList";
-import SiteVisit from "components/dashboard/CRM/SiteVisit";
-import RecentActivity from "components/dashboard/CRM/RecentActivity";
-import TicketList from "components/dashboard/CRM/TicketList";
-import TaskByStatus from "components/dashboard/CRM/TaskByStatus";
-import WelComeCard from "components/dashboard/CRM/WelComeCard";
-import Overview from "components/dashboard/CRM/Overview";
-import SiteAudience from "components/dashboard/CRM/SiteAudience";
-import Auxiliary from "util/Auxiliary";
-import TotalRevenueCard from "components/dashboard/CRM/TotalRevenueCard";
-import NewCustomers from "components/dashboard/CRM/NewCustomers";
-import GrowthCard from "components/dashboard/CRM/GrowthCard";
-import Widget from "components/Widget/index";
-import CurrencyCalculator from "components/dashboard/Crypto/CurrencyCalculator";
-import IconWithTextCard from "components/dashboard/CRM/IconWithTextCard";
+import TaskList from "src/components/dashboard/CRM/TaskList";
+import SiteVisit from "src/components/dashboard/CRM/SiteVisit";
+import RecentActivity from "src/components/dashboard/CRM/RecentActivity";
+import TicketList from "src/components/dashboard/CRM/TicketList";
+import TaskByStatus from "src/components/dashboard/CRM/TaskByStatus";
+import WelComeCard from "src/components/dashboard/CRM/WelComeCard";
+import Overview from "src/components/dashboard/CRM/Overview";
+import SiteAudience from "src/components/dashboard/CRM/SiteAudience";
+import Auxiliary from "src/util/Auxiliary";
+import TotalRevenueCard from "src/components/dashboard/CRM/TotalRevenueCard";
+import NewCustomers from "src/components/dashboard/CRM/NewCustomers";
+import GrowthCard from "src/components/dashboard/CRM/GrowthCard";
+import Widget from "src/components/Widget/index";
+import CurrencyCalculator from "src/components/dashboard/Crypto/CurrencyCalculator";
+import IconWithTextCard from "src/components/dashboard/CRM/IconWithTextCard";
 import {recentActivity, taskList, trafficData} from "./data";
 
 const CRM = () => {

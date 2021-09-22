@@ -2,10 +2,10 @@ import React from "react";
 import {Col, Row} from "antd";
 
 import timeLineData from "../timeLineData";
-import WithIconTimeLineItem from "components/timeline/WithIconTimeLineItem";
+import WithIconTimeLineItem from "src/components/timeline/WithIconTimeLineItem";
 
-import ContainerHeader from "components/ContainerHeader/index";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader/index";
+import IntlMessages from "src/util/IntlMessages";
 
 const DefaultWithIcon = ({match}) => {
   return (

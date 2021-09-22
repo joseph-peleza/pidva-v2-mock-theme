@@ -1,7 +1,7 @@
 import React, {Component} from "react";
 import {Button} from "antd";
 import {connect} from "react-redux";
-import Auxiliary from "util/Auxiliary";
+import Auxiliary from "src/util/Auxiliary";
 
 class Profile extends Component {
 

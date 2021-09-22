@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Button, Input } from "antd";
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 
 const FormItem = Form.Item;
 
@@ -26,7 +26,7 @@ class ForgotPassword extends Component {
         <div className="gx-login-content">
 
           <div className="gx-login-header">
-            <img src={require("assets/images/logo-white.png")} alt="wieldy" title="wieldy"/>
+            <img src={require("src/assets/images/logo-white.png")} alt="wieldy" title="wieldy"/>
           </div>
           <div className="gx-mb-4">
             <h2>Forgot Your Password ?</h2>

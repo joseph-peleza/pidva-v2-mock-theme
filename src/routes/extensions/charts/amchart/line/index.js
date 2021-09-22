@@ -3,8 +3,8 @@ import {Card, Col, Row} from "antd";
 
 import DateBasedLine from "./Components/DateBasedLine";
 
-import ContainerHeader from "components/ContainerHeader";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader";
+import IntlMessages from "src/util/IntlMessages";
 import LineChartWithScrollAndZoom from "./Components/LineChartWithScrollAndZoom";
 import LineWithDifferentColors from "./Components/LineWithDifferentColors";
 import SmoothedLineChart from "./Components/SmoothedLineChart";

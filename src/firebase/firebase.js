@@ -1,4 +1,6 @@
-import firebase from "firebase";
+import { initializeApp } from "firebase/app";
+import { getAuth, GoogleAuthProvider, FacebookAuthProvider, GithubAuthProvider, TwitterAuthProvider } from "firebase/auth"
+import { getFirestore } from "firebase/firestore";
 
 // Initialize Firebase
 const config = {
@@ -10,15 +12,15 @@ const config = {
   messagingSenderId: "81949884261"
 };
 
-firebase.initializeApp(config);
-const auth = firebase.auth();
+const firebaseApp = initializeApp(config);
+const auth = getAuth(firebaseApp);
 
-const googleAuthProvider = new firebase.auth.GoogleAuthProvider();
-const facebookAuthProvider = new firebase.auth.FacebookAuthProvider();
-const githubAuthProvider = new firebase.auth.GithubAuthProvider();
-const twitterAuthProvider = new firebase.auth.TwitterAuthProvider();
+const googleAuthProvider = new GoogleAuthProvider(auth);
+const facebookAuthProvider = new FacebookAuthProvider(auth);
+const githubAuthProvider = new GithubAuthProvider(auth);
+const twitterAuthProvider = new TwitterAuthProvider(auth);
 
-const database = firebase.database();
+const database = getFirestore(firebaseApp);
 
 export {
   database,

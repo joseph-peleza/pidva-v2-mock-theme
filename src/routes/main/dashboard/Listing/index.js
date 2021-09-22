@@ -2,16 +2,16 @@ import React from "react";
 import {Col, Row} from "antd";
 import {Area, AreaChart, ResponsiveContainer, Tooltip} from "recharts";
 
-import Auxiliary from "util/Auxiliary";
-import ChartCard from "components/dashboard/Listing/ChartCard";
+import Auxiliary from "src/util/Auxiliary";
+import ChartCard from "src/components/dashboard/Listing/ChartCard";
 import {citiesData, propertiesData, queriesData, visitsData} from "../../Metrics/data";
-import UserImages from "components/dashboard/Listing/UserImages";
-import RecentActivity from "components/dashboard/CRM/RecentActivity";
+import UserImages from "src/components/dashboard/Listing/UserImages";
+import RecentActivity from "src/components/dashboard/CRM/RecentActivity";
 import {recentActivity} from "../../../socialApps/Wall/data";
-import Widget from "components/Widget/index";
-import CurrentPlan from "components/dashboard/Listing/CurrentPlan";
-import DealsClosedCard from "components/dashboard/Listing/DealsClosedCard";
-import PropertiesCard from "components/dashboard/Listing/PropertiesCard";
+import Widget from "src/components/Widget/index";
+import CurrentPlan from "src/components/dashboard/Listing/CurrentPlan";
+import DealsClosedCard from "src/components/dashboard/Listing/DealsClosedCard";
+import PropertiesCard from "src/components/dashboard/Listing/PropertiesCard";
 
 const Listing = () => {
   return (

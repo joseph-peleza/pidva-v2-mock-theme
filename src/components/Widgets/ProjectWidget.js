@@ -1,7 +1,7 @@
 import React from "react";
 import {Avatar, Dropdown, Menu} from "antd";
 
-import Widget from "components/Widget/index";
+import Widget from "src/components/Widget/index";
 
 const menu = (
   <Menu>
@@ -31,7 +31,7 @@ const ProjectWidget = () => {
       </ul>
     } title="Project Widget">
       <div className="gx-text-center gx-pt-sm-3">
-        <img className="gx-size-60 gx-mb-3" src={require("assets/images/widget/birds.png")} alt='birds'/>
+        <img className="gx-size-60 gx-mb-3" src={require("src/assets/images/widget/birds.png")} alt='birds'/>
 
         <h2 className="gx-mb-3 gx-mb-sm-4">Eagal Hunt App</h2>
 

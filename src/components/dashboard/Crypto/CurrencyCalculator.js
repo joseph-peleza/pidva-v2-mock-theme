@@ -2,7 +2,7 @@ import React from "react";
 import { Form } from '@ant-design/compatible';
 import '@ant-design/compatible/assets/index.css';
 import { Button, Input, Select } from "antd";
-import Widget from "components/Widget/index";
+import Widget from "src/components/Widget/index";
 
 const Option = Select.Option;
 const FormItem = Form.Item;

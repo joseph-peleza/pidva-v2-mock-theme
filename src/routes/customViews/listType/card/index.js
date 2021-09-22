@@ -1,8 +1,8 @@
 import React from "react";
 import {cardsList} from "../data";
 import {Col, Row} from "antd";
-import ContainerHeader from "components/ContainerHeader/index";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader/index";
+import IntlMessages from "src/util/IntlMessages";
 import CardsListItem from "../Component/CardsListItem";
 
 function CardList({match}) {

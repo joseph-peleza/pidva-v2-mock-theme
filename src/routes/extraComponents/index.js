@@ -1,7 +1,7 @@
 import React from "react";
 import {Redirect, Route, Switch} from "react-router-dom";
 
-import asyncComponent from "util/asyncComponent";
+import asyncComponent from "src/util/asyncComponent";
 import Editors from "./editors";
 import TimeLine from "./timeLine";
 import Shuffles from "./Shuffles"

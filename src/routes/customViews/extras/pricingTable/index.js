@@ -1,8 +1,8 @@
 import React from "react";
 import {Card, Col, Row} from "antd";
 
-import IntlMessages from "util/IntlMessages";
-import ContainerHeader from "components/ContainerHeader/index";
+import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader/index";
 import Basic from "./Basic/index";
 import Classic from "./Classic/index";
 import Circle from "./Circle/index";

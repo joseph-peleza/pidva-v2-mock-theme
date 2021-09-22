@@ -2,7 +2,7 @@ import React from "react";
 import {Button, Input, message, Modal, Upload} from "antd";
 import Moment from "moment";
 
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 
 const {TextArea} = Input;
 

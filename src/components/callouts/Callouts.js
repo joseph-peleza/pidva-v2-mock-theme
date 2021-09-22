@@ -1,7 +1,7 @@
 import React from "react";
 import {Button} from "antd";
 
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 
 const Callouts = ({styleName, callout}) => {
   const {image, title, description} = callout;

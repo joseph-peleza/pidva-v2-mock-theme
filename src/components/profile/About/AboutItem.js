@@ -1,5 +1,5 @@
 import React from "react";
-import Auxiliary from "util/Auxiliary";
+import Auxiliary from "src/util/Auxiliary";
 
 
 const AboutItem = ({data}) => {

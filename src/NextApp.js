@@ -1,10 +1,10 @@
 import React from "react";
-import {ConnectedRouter} from "react-router-redux";
+import {ConnectedRouter} from "connected-react-router";
 import {Provider} from "react-redux";
 import {Route, Switch} from "react-router-dom";
 
-import "assets/vendors/style";
-import "styles/wieldy.less";
+import "src/assets/vendors/style";
+import "src/styles/wieldy.less";
 import configureStore, {history} from "./appRedux/store";
 import "./firebase/firebase";
 import App from "./containers/App/index";

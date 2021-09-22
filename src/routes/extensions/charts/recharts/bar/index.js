@@ -8,8 +8,8 @@ import CustomShapeBarChart from "./Components/CustomShapeBarChart";
 import PositiveAndNegativeBarChart from "./Components/PositiveAndNegativeBarChart";
 import BarChartStackedBySign from "./Components/BarChartStackedBySign";
 import BiaxialBarChart from "./Components/BiaxialBarChart";
-import ContainerHeader from "components/ContainerHeader";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader";
+import IntlMessages from "src/util/IntlMessages";
 
 const BarChart = ({match}) => {
   return (

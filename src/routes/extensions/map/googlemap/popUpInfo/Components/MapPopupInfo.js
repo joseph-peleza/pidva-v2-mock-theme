@@ -9,7 +9,7 @@ const PopUpInfoWindowExampleGoogleMap = withGoogleMap(props => (
   >
     {props.markers.map((marker, index) => (
       <Marker
-        defaultIcon={require("assets/images/marker.png")}
+        defaultIcon={require("src/assets/images/marker.png")}
         key={index}
         position={marker.position}
         onClick={() => props.onMarkerClick(marker)}

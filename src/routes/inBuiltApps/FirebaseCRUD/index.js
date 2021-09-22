@@ -1,12 +1,12 @@
 import React, {Component} from "react";
 import {Button, Drawer} from "antd";
-import CustomScrollbars from "util/CustomScrollbars";
+import CustomScrollbars from "src/util/CustomScrollbars";
 
 import ContactList from "./ContactList";
-import AppModuleHeader from "components/AppModuleHeader/index";
-import InfoView from "components/InfoView/index";
+import AppModuleHeader from "src/components/AppModuleHeader/index";
+import InfoView from "src/components/InfoView/index";
 import AddContact from "./AddContact";
-import IntlMessages from "util/IntlMessages";
+import IntlMessages from "src/util/IntlMessages";
 import {connect} from "react-redux";
 import _ from "lodash";
 import {onAddContact, onDeleteContact, onGetAllContact, onUpdateContact} from "../../../appRedux/actions/Contact";

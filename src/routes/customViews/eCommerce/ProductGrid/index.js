@@ -1,7 +1,7 @@
 import React from "react";
 import {Col, Row} from "antd";
-import ProductItem from "components/eCommerce/ProductItem";
-import productData from "routes/customViews/eCommerce/productData";
+import ProductItem from "src/components/eCommerce/ProductItem";
+import productData from "src/routes/customViews/eCommerce/productData";
 
 function ProductsGrid() {
   return (

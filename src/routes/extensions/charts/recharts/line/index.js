@@ -9,8 +9,8 @@ import DashedLineChart from "./Components/DashedLineChart";
 import LineChartWithXAxisPading from "./Components/LineChartWithXAxisPading";
 import LineChartConnectNulls from "./Components/LineChartConnectNulls";
 import SynchronizedLineChart from "./Components/SynchronizedLineChart";
-import ContainerHeader from "components/ContainerHeader";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader";
+import IntlMessages from "src/util/IntlMessages";
 
 const LineChart = ({match}) => {
   return (

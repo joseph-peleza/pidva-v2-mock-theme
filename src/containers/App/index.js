@@ -5,12 +5,12 @@ import {Redirect, Route, Switch} from "react-router-dom";
 import {ConfigProvider} from "antd";
 import {IntlProvider} from "react-intl";
 
-import AppLocale from "lngProvider";
+import AppLocale from "src/lngProvider";
 import MainApp from "./MainApp";
 import SignIn from "../SignIn";
 import SignUp from "../SignUp";
-import {setInitUrl} from "appRedux/actions/Auth";
-import {onLayoutTypeChange, onNavStyleChange, setThemeType} from "appRedux/actions/Setting";
+import {setInitUrl} from "src/appRedux/actions/Auth";
+import {onLayoutTypeChange, onNavStyleChange, setThemeType} from "src/appRedux/actions/Setting";
 
 import {
   LAYOUT_TYPE_BOXED,

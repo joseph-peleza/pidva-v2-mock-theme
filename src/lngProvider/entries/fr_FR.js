@@ -1,5 +1,6 @@
 import antdSA from "antd/lib/locale-provider/fr_FR";
-import appLocaleData from "react-intl/locale-data/fr";
+import '@formatjs/intl-pluralrules/polyfill';
+import appLocaleData from "@formatjs/intl-pluralrules/locale-data/fr";
 import saMessages from "../locales/fr_FR.json";
 
 const saLang = {

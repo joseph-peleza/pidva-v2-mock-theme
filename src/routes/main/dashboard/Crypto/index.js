@@ -3,16 +3,16 @@ import {Col, Row} from "antd";
 
 import {Area, AreaChart, Line, LineChart, ResponsiveContainer, Tooltip} from "recharts";
 import {increamentData, lineData} from "../../Metrics/data";
-import ChartCard from "components/dashboard/Crypto/ChartCard";
-import Auxiliary from "util/Auxiliary";
-import Portfolio from "components/dashboard/Crypto/Portfolio";
-import BalanceHistory from "components/dashboard/Crypto/BalanceHistory";
-import SendMoney from "components/dashboard/Crypto/SendMoney";
-import RewardCard from "components/dashboard/Crypto/RewardCard";
-import CurrencyCalculator from "components/dashboard/Crypto/CurrencyCalculator";
-import CryptoNews from "components/dashboard/Crypto/CryptoNews";
-import DownloadMobileApps from "components/dashboard/Crypto/DownloadMobileApps";
-import OrderHistory from "components/dashboard/Crypto/OrderHistory";
+import ChartCard from "src/components/dashboard/Crypto/ChartCard";
+import Auxiliary from "src/util/Auxiliary";
+import Portfolio from "src/components/dashboard/Crypto/Portfolio";
+import BalanceHistory from "src/components/dashboard/Crypto/BalanceHistory";
+import SendMoney from "src/components/dashboard/Crypto/SendMoney";
+import RewardCard from "src/components/dashboard/Crypto/RewardCard";
+import CurrencyCalculator from "src/components/dashboard/Crypto/CurrencyCalculator";
+import CryptoNews from "src/components/dashboard/Crypto/CryptoNews";
+import DownloadMobileApps from "src/components/dashboard/Crypto/DownloadMobileApps";
+import OrderHistory from "src/components/dashboard/Crypto/OrderHistory";
 
 const Crypto = () => {
   return (

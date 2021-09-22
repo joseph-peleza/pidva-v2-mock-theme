@@ -1,17 +1,17 @@
 import React, {PureComponent} from "react";
 import {Button, Checkbox, Drawer, Dropdown, Menu, message} from "antd";
-import CustomScrollbars from "util/CustomScrollbars";
+import CustomScrollbars from "src/util/CustomScrollbars";
 
 import mails from "./data/mails";
 import folders from "./data/folders";
 import filters from "./data/filters";
 import labels from "./data/labels";
 import options from "./data/options";
-import MailList from "components/mail/MailList";
-import ComposeMail from "components/mail/Compose/index";
-import AppModuleHeader from "components/AppModuleHeader/index";
-import MailDetail from "components/mail/MailDetail/index";
-import IntlMessages from "util/IntlMessages";
+import MailList from "src/components/mail/MailList";
+import ComposeMail from "src/components/mail/Compose/index";
+import AppModuleHeader from "src/components/AppModuleHeader/index";
+import MailDetail from "src/components/mail/MailDetail/index";
+import IntlMessages from "src/util/IntlMessages";
 import CircularProgress from "../../../components/CircularProgress/index";
 import Auxiliary from "../../../util/Auxiliary";
 

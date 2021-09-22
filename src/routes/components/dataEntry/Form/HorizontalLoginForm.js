@@ -12,9 +12,9 @@ import {
   userGoogleSignIn,
   userSignIn,
   userTwitterSignIn
-} from "appRedux/actions/Auth";
+} from "src/appRedux/actions/Auth";
 import "./horizontalLoginForm.less";
-import CircularProgress from "components/CircularProgress/index";
+import CircularProgress from "src/components/CircularProgress/index";
 
 const FormItem = Form.Item;
 

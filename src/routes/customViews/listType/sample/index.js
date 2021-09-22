@@ -1,9 +1,9 @@
 import React from "react";
 import {PlainListData} from "../data";
 import {Col, Row} from "antd";
-import ContainerHeader from "components/ContainerHeader/index";
-import IntlMessages from "util/IntlMessages";
-import PlainListItem from "routes/customViews/listType/Component/PlainListItem";
+import ContainerHeader from "src/components/ContainerHeader/index";
+import IntlMessages from "src/util/IntlMessages";
+import PlainListItem from "src/routes/customViews/listType/Component/PlainListItem";
 
 function SimpleList({match}) {
   return (

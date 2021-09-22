@@ -2,8 +2,8 @@ import React from "react";
 import {NotificationContainer, NotificationManager} from "react-notifications";
 import {Button, Card, Col, Row} from "antd";
 
-import ContainerHeader from "components/ContainerHeader/index";
-import IntlMessages from "util/IntlMessages";
+import ContainerHeader from "src/components/ContainerHeader/index";
+import IntlMessages from "src/util/IntlMessages";
 
 class Example extends React.Component {
   createNotification = (type) => {

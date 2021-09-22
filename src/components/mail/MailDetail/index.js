@@ -1,8 +1,8 @@
 import React from "react";
 import {Avatar, Dropdown, Menu} from "antd";
-import CustomScrollbars from 'util/CustomScrollbars'
+import CustomScrollbars from 'src/util//CustomScrollbars'
 
-import labels from "routes/inBuiltApps/Mail/data/labels";
+import labels from "src/routes/inBuiltApps/Mail/data/labels";
 
 const options = [
   'Reply',

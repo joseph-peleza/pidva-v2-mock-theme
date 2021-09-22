@@ -1,5 +1,5 @@
 import React from "react";
-import CustomScrollbars from 'util/CustomScrollbars'
+import CustomScrollbars from 'src/util//CustomScrollbars'
 
 import ToDoItem from "./ToDoItem";
 

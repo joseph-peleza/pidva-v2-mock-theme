@@ -1,7 +1,7 @@
 import React from "react";
 import {Avatar} from "antd";
 
-import Aux from "util/Auxiliary";
+import Aux from "src/util/Auxiliary";
 import {taskStatus} from "../../../../src/routes/main/dashboard/CRM/data"
 
 const getStatus = (status) => {
