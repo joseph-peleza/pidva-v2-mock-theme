@@ -1,0 +1,2 @@
+(this["webpackJsonppeleza-international"]=this["webpackJsonppeleza-international"]||[]).push([[142],{2105:function(n,t,e){"use strict";e.r(t);e(165);var a=e(85),i=(e(164),e(42)),r=(e(0),e(615)),c=e(616),s=e(2);t.default=function(){return Object(s.jsx)(a.a,{children:c.a.map((function(n,t){return Object(s.jsx)(i.a,{xl:6,md:8,sm:12,xs:24,children:Object(s.jsx)(r.a,{grid:!0,product:n},t)},t)}))})}}}]);
+//# sourceMappingURL=142.17e4e172.chunk.js.map

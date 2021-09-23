@@ -1,4 +1,5 @@
 import React from "react";
+import { hot } from 'react-hot-loader';
 import {ConnectedRouter} from "connected-react-router";
 import {Provider} from "react-redux";
 import {Route, Switch} from "react-router-dom";
@@ -22,4 +23,4 @@ const NextApp = () =>
   </Provider>;
 
 
-export default NextApp;
+export default hot(module)(NextApp);
