@@ -14,7 +14,7 @@ const WelComeCard = () => {
         </li>
         <li>
           <Icon type="mail"/>
-          <span>2 Pending invitations</span>
+          <span>2 Pending verifications</span>
         </li>
         <li>
           <Icon type="profile"/>

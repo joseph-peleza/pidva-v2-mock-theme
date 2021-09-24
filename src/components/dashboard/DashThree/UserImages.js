@@ -7,35 +7,35 @@ import WidgetHeader from "components/WidgetHeader/index";
 const userImageList = [
   {
     id: 1,
-    image: 'https://via.placeholder.com/150x150',
+    image: 'https://image.freepik.com/free-psd/reflecting-logo-office-wall_117023-1653.jpg',
     name: 'Alex Johns',
     rating: '5.0',
     deals: '27 Deals'
   },
   {
     id: 2,
-    image: 'https://via.placeholder.com/150x150',
+    image: 'https://image.freepik.com/free-psd/reflecting-logo-office-wall_117023-1653.jpg',
     name: 'Chelsea Johns',
     rating: '4.5',
     deals: '21 Deals'
   },
   {
     id: 3,
-    image: 'https://via.placeholder.com/150x150',
+    image: 'https://image.freepik.com/free-psd/reflecting-logo-office-wall_117023-1653.jpg',
     name: 'Domnic Johns',
     rating: '5.0',
     deals: '27 Deals'
   },
   {
     id: 4,
-    image: 'https://via.placeholder.com/150x150',
+    image: 'https://image.freepik.com/free-psd/reflecting-logo-office-wall_117023-1653.jpg',
     name: 'Ken Ramirez',
     rating: '5.0',
     deals: '27 Deals'
   },
   {
     id: 5,
-    image: 'https://via.placeholder.com/150x150',
+    image: 'https://image.freepik.com/free-psd/reflecting-logo-office-wall_117023-1653.jpg',
     name: 'Zakie Chain',
     rating: '5.0',
     deals: '27 Deals'
@@ -46,7 +46,7 @@ const userImageList = [
 const UserImages = () => {
   return (
     <Aux>
-      <WidgetHeader styleName="gx-flex-row" title="Popular Agents" extra={<span>Go to agents list <i
+      <WidgetHeader styleName="gx-flex-row" title="Popular Clients" extra={<span>Go to clients list <i
         className="icon icon-long-arrow-right gx-fs-xxl gx-ml-2 gx-d-inline-flex gx-vertical-align-middle"/></span>}/>
 
       <ul className="gx-agents-list">

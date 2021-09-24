@@ -19,8 +19,15 @@ class UserProfile extends Component {
 
       <div className="gx-flex-row gx-align-items-center gx-mb-4 gx-avatar-row">
         <Popover placement="bottomRight" content={userMenuOptions} trigger="click">
-          <Avatar src='https://via.placeholder.com/150x150'
-                  className="gx-size-40 gx-pointer gx-mr-3" alt=""/>
+          <Avatar 
+          // src='https://via.placeholder.com/150x150' 
+          className="gx-size-40 gx-pointer gx-mr-3" alt=""
+          style={{
+            backgroundColor: '#f56a00',
+          }}>
+            JM
+          </Avatar>
+                  
           <span className="gx-avatar-name">Joseph Mbuku<i
             className="icon icon-chevron-down gx-fs-xxs gx-ml-2"/></span>
         </Popover>

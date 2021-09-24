@@ -19,11 +19,11 @@ const data = [
 
 const TotalRevenueCard = ({width}) => {
   return (
-    <Metrics title="TOTAL REVENUE">
+    <Metrics title="TOTAL REQUESTS">
       <Row>
         <Col xl={11} lg={12} md={24} sm={12} xs={12}>
-          <h1 className="gx-mb-1 gx-revenue-title">$2,167</h1>
-          <p className="gx-mb-md-0 gx-text-light">YTD revenue</p>
+          <h1 className="gx-mb-1 gx-revenue-title">2500</h1>
+          <p className="gx-mb-md-0 gx-text-light">This Month</p>
         </Col>
         <Col xl={13} lg={12} md={24} sm={12} xs={12}>
 

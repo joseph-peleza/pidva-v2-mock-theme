@@ -61,16 +61,16 @@ const DashTwo = () => {
         <Col xl={16} lg={24} md={24} sm={24} xs={24} className="gx-order-sm-1">
           <Row>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="cyan" icon="diamond" title="09" subTitle="Projects"/>
+              <IconWithTextCard cardColor="cyan" icon="diamond" title="1700" subTitle="New Requests"/>
             </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="orange" icon="tasks" title="687" subTitle="Tasks"/>
+              <IconWithTextCard cardColor="orange" icon="tasks" title="800" subTitle="Ongoing Tasks"/>
             </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="teal" icon="team" title="04" subTitle="Teams"/>
+              <IconWithTextCard cardColor="teal" icon="team" title="160" subTitle="Awaiting Approval"/>
             </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="red" icon="files" title="09" subTitle="Files"/>
+              <IconWithTextCard cardColor="red" icon="files" title="1000" subTitle="Approved Reports"/>
             </Col>
             <Col xl={24} lg={24} md={24} sm={24} xs={24}>
               <TaskList taskList={taskList}/>

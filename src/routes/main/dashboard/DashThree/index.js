@@ -19,8 +19,8 @@ const DashThree = () => {
       <Row>
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard chartProperties={{
-            title: 'PROPERTIES',
-            prize: '26,873',
+            title: 'NEW REQUESTS',
+            prize: '1700',
             icon: 'stats',
             bgColor: 'primary',
             styleName: 'up',
@@ -41,12 +41,12 @@ const DashThree = () => {
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard
             chartProperties={{
-              title: 'CITIES',
-              prize: '3,840',
+              title: 'ONGOING TASKS',
+              prize: '800',
               icon: 'stats',
               bgColor: 'orange',
               styleName: 'up',
-              desc: '7 New cities this week',
+              desc: '7 new tasks today',
               percent: '',
             }}
             children={<ResponsiveContainer width="100%" height={75}>
@@ -63,12 +63,12 @@ const DashThree = () => {
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard
             chartProperties={{
-              title: 'ONLINE VISITS',
-              prize: '84,729',
+              title: 'AWAITING APPROVAL',
+              prize: '160',
               icon: 'stats',
               bgColor: 'teal',
               styleName: 'down',
-              desc: 'Avg. 327 visits daily',
+              desc: 'Avg. 30 approvals daily',
               percent: '',
             }}
             children={<ResponsiveContainer width="100%" height={75}>
@@ -84,8 +84,8 @@ const DashThree = () => {
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard
             chartProperties={{
-              title: 'ONLINE QUERIES',
-              prize: '87,239',
+              title: 'AWAITING REQUESTS',
+              prize: '1000',
               icon: 'stats',
               bgColor: 'pink',
               styleName: 'down',

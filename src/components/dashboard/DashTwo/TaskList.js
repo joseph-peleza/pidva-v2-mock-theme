@@ -24,7 +24,7 @@ class TaskList extends React.Component {
 
   render() {
     return (
-      <Widget title="Task List" styleName="gx-card-tabs"
+      <Widget title="Your Task List" styleName="gx-card-tabs"
               extra={<i className="icon icon-search-new gx-pointer gx-fs-xxl gx-text-primary"/>}>
         <Tabs defaultActiveKey="1">
           <TabPane tab="All Task" key="1">

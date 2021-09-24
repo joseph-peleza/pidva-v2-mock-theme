@@ -9,26 +9,26 @@ const Overview = () => {
     <div className="gx-card-overview">
       <div className="gx-overview-row">
         <div className="gx-line-indicator-col">
-          <h2 className="h4 gx-card-title">Revenu Overview</h2>
+          <h2 className="h4 gx-card-title">Client Distribution</h2>
           <ul className="gx-line-indicator">
             <li>
-              <LineIndicator width="25%" title="Europe" color="purple" value="25%"/>
+              <LineIndicator width="25%" title="Ed Checks" color="purple" value="25%"/>
             </li>
             <li>
-              <LineIndicator width="40%" title="North America" color="green" value="40%"/>
+              <LineIndicator width="40%" title="Id Checks" color="green" value="40%"/>
             </li>
             <li>
-              <LineIndicator width="28%" title="Japan, South Koria" color="yellow" value="28%"/>
+              <LineIndicator width="28%" title="Ed Requests" color="yellow" value="28%"/>
             </li>
             <li>
-              <LineIndicator width="18%" title="Others" color="grey" value="18%"/>
+              <LineIndicator width="18%" title="Psmt Requests" color="grey" value="18%"/>
             </li>
           </ul>
         </div>
         <div className="gx-overview-description">
           <div className="gx-revenu gx-revenu-total">
-            <h1>$2,650</h1>
-            <span className="gx-fs-md">Total Revenu</span>
+            <h1>2500</h1>
+            <span className="gx-fs-md">Requests This Month</span>
           </div>
 
           <div className="gx-revenu">

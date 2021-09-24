@@ -24,12 +24,12 @@ const DealsClosedCard = () => {
     <Widget>
       <div className="gx-dealclose-header">
         <div>
-          <h2 className="h4 gx-mb-2">927 Deals Closed</h2>
+          <h2 className="h4 gx-mb-2">1000 Request Approved</h2>
           <p className="gx-text-grey">This year</p>
         </div>
         <div className="gx-dealclose-header-right">
-          <p className="gx-mb-2"><Badge className="gx-mb-0" status="warning"/>Queries</p>
-          <p className="gx-ml-2 gx-mb-2"><Badge className="gx-mb-0" status="processing"/>Closed Deals</p>
+          <p className="gx-mb-2"><Badge className="gx-mb-0" status="warning"/>Pending</p>
+          <p className="gx-ml-2 gx-mb-2"><Badge className="gx-mb-0" status="processing"/>Approved</p>
         </div>
       </div>
       <ResponsiveContainer width="100%" height={114}>

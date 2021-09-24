@@ -34,7 +34,7 @@ const DashOne = () => {
                                fillOpacity={1}/>
                        </AreaChart>
                      </ResponsiveContainer>}
-                     styleName="up" desc="Number of New Reports"/>
+                     styleName="up" desc="New Requests"/>
         </Col>
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard prize="800" title="07" icon="etherium"
@@ -53,7 +53,7 @@ const DashOne = () => {
                                fillOpacity={1}/>
                        </AreaChart>
                      </ResponsiveContainer>}
-                     styleName="up" desc="Number of Ongoing Reports"/>
+                     styleName="up" desc="Ongoing Tasks"/>
         </Col>
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard prize="160" title="08" icon="ripple"
@@ -71,7 +71,7 @@ const DashOne = () => {
                                fillOpacity={1}/>
                        </AreaChart>
                      </ResponsiveContainer>}
-                     styleName="down" desc="Number of Reports Awaiting Approval"/>
+                     styleName="down" desc="Awaiting Approval"/>
         </Col>
         <Col xl={6} lg={12} md={12} sm={12} xs={24}>
           <ChartCard prize="1000" title="47" icon="litcoin"
@@ -83,7 +83,7 @@ const DashOne = () => {
                          <Line dataKey="price" stroke="#038FDE" dot={{stroke: '#FEA931', strokeWidth: 2}}/>
                        </LineChart>
                      </ResponsiveContainer>}
-                     styleName="down" desc="Completed Approved Reports"/>
+                     styleName="down" desc="Approved Requests"/>
         </Col>
         <Col xl={12} lg={24} md={12} sm={24} xs={24}>
           <Portfolio/>
