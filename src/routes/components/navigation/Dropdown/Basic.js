@@ -1,6 +1,5 @@
 import React from "react";
-import {Card, Dropdown, Menu} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Card, Dropdown, Icon, Menu} from "antd";
 
 const menu = (
   <Menu>

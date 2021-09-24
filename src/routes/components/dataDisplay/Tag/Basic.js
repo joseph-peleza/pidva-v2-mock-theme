@@ -8,7 +8,7 @@ const Basic = () => {
 
   function preventDefault(e) {
     e.preventDefault();
-    console.log('Clicked! But prevent CRM.');
+    console.log('Clicked! But prevent DashTwo.');
   }
 
   return (

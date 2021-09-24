@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {connect} from "react-redux";
 
 import {toggleCollapsedSideNav} from "../../../appRedux/actions/Setting";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 class NoHeaderNotification extends Component {
 

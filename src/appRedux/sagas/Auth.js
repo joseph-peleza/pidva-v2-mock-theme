@@ -14,7 +14,7 @@ import {
   SIGNIN_USER,
   SIGNOUT_USER,
   SIGNUP_USER
-} from "src/constants/ActionTypes";
+} from "constants/ActionTypes";
 import {showAuthMessage, userSignInSuccess, userSignOutSuccess, userSignUpSuccess} from "../../appRedux/actions/Auth";
 import {
   userFacebookSignInSuccess,

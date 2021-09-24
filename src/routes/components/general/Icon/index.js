@@ -433,8 +433,8 @@ const Icons = () => {
         </Col>
         <Col xl={4} lg={6} md={6} sm={8} xs={12}>
           <div className="gx-icon-views">
-            <i className="icon icon-crm"/>
-            <span className="gx-icon-text">crm</span>
+            <i className="icon icon-dashTwo"/>
+            <span className="gx-icon-text">dashTwo</span>
           </div>
         </Col>
         <Col xl={4} lg={6} md={6} sm={8} xs={12}>

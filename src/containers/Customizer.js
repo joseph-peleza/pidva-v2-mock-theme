@@ -1,13 +1,11 @@
 import React, {Component} from "react";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Button, Drawer, message, Radio } from "antd";
+import {Button, Drawer, Form, message, Radio} from "antd";
 import {connect} from "react-redux";
 
 import ColorPicker from "./ColorPicker";
-import Auxiliary from "src/util/Auxiliary";
-import CustomScrollbars from "src/util/CustomScrollbars";
-import {onLayoutTypeChange, onNavStyleChange, setThemeColorSelection, setThemeType} from "src/appRedux/actions/Setting";
+import Auxiliary from "util/Auxiliary";
+import CustomScrollbars from "util/CustomScrollbars";
+import {onLayoutTypeChange, onNavStyleChange, setThemeColorSelection, setThemeType} from "appRedux/actions/Setting";
 
 import {
   BLUE,
@@ -284,19 +282,19 @@ class Customizer extends Component {
       <li>
         <span onClick={this.handleLayoutTypes.bind(this, LAYOUT_TYPE_FRAMED)}
               className={`gx-pointer ${layoutType === LAYOUT_TYPE_FRAMED && 'active'}`}>
-        <img src={'src/assets/images/layouts/framed.png'} alt='framed'/>
+        <img src={require('assets/images/layouts/framed.png')} alt='framed'/>
         </span>
       </li>
       <li>
         <span onClick={this.handleLayoutTypes.bind(this, LAYOUT_TYPE_FULL)}
               className={`gx-pointer ${layoutType === LAYOUT_TYPE_FULL && 'active'}`}>
-        <img src={'src/assets/images/layouts/full width.png'} alt='full width'/>
+        <img src={require('assets/images/layouts/full width.png')} alt='full width'/>
         </span>
       </li>
       <li>
         <span onClick={this.handleLayoutTypes.bind(this, LAYOUT_TYPE_BOXED)}
               className={`gx-pointer ${layoutType === LAYOUT_TYPE_BOXED && 'active'}`}>
-        <img src={'src/assets/images/layouts/boxed.png'} alt='boxed'/>
+        <img src={require('assets/images/layouts/boxed.png')} alt='boxed'/>
         </span>
       </li>
     </ul>
@@ -306,62 +304,62 @@ class Customizer extends Component {
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_FIXED)}
               className={`gx-pointer ${navStyle === NAV_STYLE_FIXED && 'active'}`}>
-        <img src={'src/assets/images/layouts/fixed.png'} alt='fixed'/>
+        <img src={require('assets/images/layouts/fixed.png')} alt='fixed'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_MINI_SIDEBAR)}
               className={`gx-pointer ${navStyle === NAV_STYLE_MINI_SIDEBAR && 'active'}`}>
-        <img src={'src/assets/images/layouts/mini sidebar.png'} alt='mini sidebar'/>
+        <img src={require('assets/images/layouts/mini sidebar.png')} alt='mini sidebar'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_DRAWER)}
               className={`gx-pointer ${navStyle === NAV_STYLE_DRAWER && 'active'}`}>
-        <img src={'src/assets/images/layouts/drawer nav.png'} alt='drawer nav'/>
+        <img src={require('assets/images/layouts/drawer nav.png')} alt='drawer nav'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_NO_HEADER_MINI_SIDEBAR)}
               className={`gx-pointer ${navStyle === NAV_STYLE_NO_HEADER_MINI_SIDEBAR && 'active'}`}>
-        <img src={'src/assets/images/layouts/no header mini sidebar.png'} alt='no hader mini sidebar'/>
+        <img src={require('assets/images/layouts/no header mini sidebar.png')} alt='no hader mini sidebar'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_NO_HEADER_EXPANDED_SIDEBAR)}
               className={`gx-pointer ${navStyle === NAV_STYLE_NO_HEADER_EXPANDED_SIDEBAR && 'active'}`}>
-        <img src={'src/assets/images/layouts/vertical no header.png'} alt='vertical no header'/>
+        <img src={require('assets/images/layouts/vertical no header.png')} alt='vertical no header'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_DEFAULT_HORIZONTAL)}
               className={`gx-pointer ${navStyle === NAV_STYLE_DEFAULT_HORIZONTAL && 'active'}`}>
-        <img src={'src/assets/images/layouts/default horizontal.png'} alt='default horizontal'/>
+        <img src={require('assets/images/layouts/default horizontal.png')} alt='default horizontal'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_DARK_HORIZONTAL)}
               className={`gx-pointer ${navStyle === NAV_STYLE_DARK_HORIZONTAL && 'active'}`}>
-        <img src={'src/assets/images/layouts/dark horizontal.png'} alt='dark horizontal'/>
+        <img src={require('assets/images/layouts/dark horizontal.png')} alt='dark horizontal'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_INSIDE_HEADER_HORIZONTAL)}
               className={`gx-pointer ${navStyle === NAV_STYLE_INSIDE_HEADER_HORIZONTAL && 'active'}`}>
-        <img src={'src/assets/images/layouts/inside header horizontal.png'} alt='inside header horizontal'/>
+        <img src={require('assets/images/layouts/inside header horizontal.png')} alt='inside header horizontal'/>
         </span>
       </li>
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_BELOW_HEADER)}
               className={`gx-pointer ${navStyle === NAV_STYLE_BELOW_HEADER && 'active'}`}>
-        <img src={'src/assets/images/layouts/below header.png'} alt='below header'/>
+        <img src={require('assets/images/layouts/below header.png')} alt='below header'/>
         </span>
       </li>
 
       <li>
         <span onClick={this.onNavStyleChange.bind(this, NAV_STYLE_ABOVE_HEADER)}
               className={`gx-pointer ${navStyle === NAV_STYLE_ABOVE_HEADER && 'active'}`}>
-        <img src={'src/assets/images/layouts/top to header.png'} alt='top to header'/>
+        <img src={require('assets/images/layouts/top to header.png')} alt='top to header'/>
         </span>
       </li>
     </ul>

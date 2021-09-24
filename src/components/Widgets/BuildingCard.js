@@ -1,7 +1,7 @@
 import React from "react";
 import {Badge} from "antd";
 
-import Widget from "src/components/Widget/index";
+import Widget from "components/Widget/index";
 
 function BuildingCard() {
 
@@ -9,7 +9,7 @@ function BuildingCard() {
     <Widget styleName="gx-card-full gx-dot-arrow-hover">
       <div className="gx-media gx-align-items-center gx-flex-nowrap">
         <div className="gx-px-3 gx-build-box-lay">
-          <img alt="..." src={'src/assets/images/widget/building.png'} className=""/>
+          <img alt="..." src={require('assets/images/widget/building.png')} className=""/>
         </div>
         <div className="gx-media-body gx-py-3 gx-pr-4 gx-build-box-lay-content">
 

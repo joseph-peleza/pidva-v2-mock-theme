@@ -22,7 +22,7 @@ import BasicPositioning from "./basicPositioning/index";
 import CustomPicker from "./customPicker/index";
 import CustomPointer from "./customPointer/index";
 import WithRedux from "./withRedux/index";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 const ColorPicker = () => {
   return (

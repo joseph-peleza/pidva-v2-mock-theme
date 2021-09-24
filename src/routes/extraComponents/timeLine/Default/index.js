@@ -2,9 +2,9 @@ import React from "react";
 import {Col, Row} from "antd";
 
 import timeLineData from "../timeLineData";
-import DefaultTimeLineItem from "src/components/timeline/DefaultTimeLineItem";
-import ContainerHeader from "src/components/ContainerHeader/index";
-import IntlMessages from "src/util/IntlMessages";
+import DefaultTimeLineItem from "components/timeline/DefaultTimeLineItem";
+import ContainerHeader from "components/ContainerHeader/index";
+import IntlMessages from "util/IntlMessages";
 
 const Default = ({match}) => {
   return (

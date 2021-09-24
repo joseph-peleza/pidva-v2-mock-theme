@@ -1,9 +1,9 @@
 import React from 'react';
-import CircularProgress from "src/components/CircularProgress/index";
+import CircularProgress from "components/CircularProgress/index";
 import {message} from 'antd';
-import Auxiliary from "src/util/Auxiliary";
+import Auxiliary from "util/Auxiliary";
 import {connect} from "react-redux";
-import {hideMessage} from "src/appRedux/actions/Common";
+import {hideMessage} from "appRedux/actions/Common";
 
 class InfoView extends React.Component {
   componentWillReceiveProps(nextProps) {

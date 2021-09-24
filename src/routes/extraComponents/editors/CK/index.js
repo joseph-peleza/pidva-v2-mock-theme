@@ -2,7 +2,7 @@ import React from "react";
 import CKEditor from "react-ckeditor-component";
 import {Card} from "antd";
 
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 class CK extends React.Component {
   constructor(props) {

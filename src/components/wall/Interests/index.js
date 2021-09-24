@@ -1,5 +1,5 @@
 import React from "react";
-import WidgetHeader from "src/components/WidgetHeader/index";
+import WidgetHeader from "components/WidgetHeader/index";
 
 const Interests = ({interestList}) => {
   return (

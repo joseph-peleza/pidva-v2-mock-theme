@@ -1,10 +1,10 @@
 import React from "react";
-import { Calendar } from "react-big-calendar";
+import BigCalendar from "react-big-calendar";
 import events from "../events";
 import moment from "moment";
 
-Calendar.setLocalizer(
-  Calendar.momentLocalizer(moment)
+BigCalendar.setLocalizer(
+  BigCalendar.momentLocalizer(moment)
 );
 
 class Cultures extends React.Component {
@@ -37,7 +37,7 @@ class Cultures extends React.Component {
               }
             </select>
           </div>
-          <Calendar
+          <BigCalendar
             rtl={rtl}
             events={events}
             // culture={this.state.culture}

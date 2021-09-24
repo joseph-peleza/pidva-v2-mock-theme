@@ -1,16 +1,16 @@
 import React, {Component} from "react";
 import {Button, Checkbox, Drawer, Dropdown, Menu, message} from "antd";
 
-import CustomScrollbars from "src/util/CustomScrollbars";
+import CustomScrollbars from "util/CustomScrollbars";
 import toDos from "./data/todo";
 import filters from "./data/filters";
 import labels from "./data/labels";
 import options from "./data/options";
 import todoConversation from "./data/todoConversation";
-import ToDoList from "src/components/todo/ToDoList";
-import ToDoDetail from "src/components/todo/ToDoDetail/index";
-import AppModuleHeader from "src/components/AppModuleHeader/index";
-import IntlMessages from "src/util/IntlMessages";
+import ToDoList from "components/todo/ToDoList";
+import ToDoDetail from "components/todo/ToDoDetail/index";
+import AppModuleHeader from "components/AppModuleHeader/index";
+import IntlMessages from "util/IntlMessages";
 import CircularProgress from "../../../components/CircularProgress/index";
 import Auxiliary from "../../../util/Auxiliary";
 

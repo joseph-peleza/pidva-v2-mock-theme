@@ -1,7 +1,7 @@
 import React from "react";
 import {Avatar, Input, Modal} from "antd";
 
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 class AddContact extends React.Component {
   constructor(props) {
@@ -25,7 +25,7 @@ class AddContact extends React.Component {
     const {id, name, email, phone, designation, starred, frequently} = this.state;
     let {thumb} = this.state;
     if (!thumb) {
-      thumb = 'src/assets/images/placeholder.jpg';
+      thumb = require('assets/images/placeholder.jpg');
     }
     return (
       <Modal

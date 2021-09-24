@@ -24,7 +24,7 @@ for (let i = 0; i < 46; i++) {
 
 class CustomSelection extends React.Component {
   state = {
-    selectedRowKeys: [], // Check here to configure the CRM column
+    selectedRowKeys: [], // Check here to configure the DashTwo column
   };
   onSelectChange = (selectedRowKeys) => {
     console.log('selectedRowKeys changed: ', selectedRowKeys);

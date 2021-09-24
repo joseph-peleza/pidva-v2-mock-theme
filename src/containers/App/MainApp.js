@@ -9,9 +9,9 @@ import AboveHeader from "../Topbar/AboveHeader/index";
 import BelowHeader from "../Topbar/BelowHeader/index";
 
 import Topbar from "../Topbar/index";
-import {footerText} from "src/util/config";
-import App from "src/routes/index";
-import Customizer from "src/containers/Customizer";
+import {footerText} from "util/config";
+import App from "routes/index";
+import Customizer from "containers/Customizer";
 import {connect} from "react-redux";
 import {
   NAV_STYLE_ABOVE_HEADER,

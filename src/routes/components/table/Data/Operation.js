@@ -24,7 +24,7 @@ for (let i = 0; i < 46; i++) {
 
 class Operation extends React.Component {
   state = {
-    selectedRowKeys: [], // Check here to configure the CRM column
+    selectedRowKeys: [], // Check here to configure the DashTwo column
     loading: false,
   };
   start = () => {

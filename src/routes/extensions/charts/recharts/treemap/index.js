@@ -3,8 +3,8 @@ import {Card, Col, Row} from "antd";
 
 import SimpleTreemap from "./Components/SimpleTreemap";
 import CustomContentTreemap from "./Components/CustomContentTreemap";
-import ContainerHeader from "src/components/ContainerHeader";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader";
+import IntlMessages from "util/IntlMessages";
 
 const Treemap = ({match}) => {
   return (

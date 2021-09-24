@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 const Error500 = () => (
   <div className="gx-page-error-container">

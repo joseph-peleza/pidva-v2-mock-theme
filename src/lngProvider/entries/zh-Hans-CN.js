@@ -1,5 +1,4 @@
-import '@formatjs/intl-pluralrules/polyfill';
-import appLocaleData from "@formatjs/intl-pluralrules/locale-data/zh";
+import appLocaleData from "react-intl/locale-data/zh";
 import zhMessages from "../locales/zh-Hans.json";
 
 const ZhLan = {

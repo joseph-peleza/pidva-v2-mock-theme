@@ -1,7 +1,7 @@
 import React from "react";
 
-import Widget from "src/components/Widget";
-import IntlMessages from "src/util/IntlMessages";
+import Widget from "components/Widget";
+import IntlMessages from "util/IntlMessages";
 
 const Installation = () => {
   return (

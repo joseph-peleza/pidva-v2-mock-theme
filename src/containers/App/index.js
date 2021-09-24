@@ -2,15 +2,15 @@ import React, {Component} from "react";
 import {connect} from "react-redux";
 import URLSearchParams from 'url-search-params'
 import {Redirect, Route, Switch} from "react-router-dom";
-import {ConfigProvider} from "antd";
+import {LocaleProvider} from "antd";
 import {IntlProvider} from "react-intl";
 
-import AppLocale from "src/lngProvider";
+import AppLocale from "lngProvider";
 import MainApp from "./MainApp";
 import SignIn from "../SignIn";
 import SignUp from "../SignUp";
-import {setInitUrl} from "src/appRedux/actions/Auth";
-import {onLayoutTypeChange, onNavStyleChange, setThemeType} from "src/appRedux/actions/Setting";
+import {setInitUrl} from "appRedux/actions/Auth";
+import {onLayoutTypeChange, onNavStyleChange, setThemeType} from "appRedux/actions/Setting";
 
 import {
   LAYOUT_TYPE_BOXED,
@@ -94,7 +94,7 @@ class App extends Component {
       if (authUser === null) {
         return ( <Redirect to={'/signin'}/> );
       } else if (initURL === '' || initURL === '/' || initURL === '/signin') {
-        return ( <Redirect to={'/main/dashboard/crypto'}/> );
+        return ( <Redirect to={'/main/dashboard/dashOne'}/> );
       } else {
         return ( <Redirect to={initURL}/> );
       }
@@ -105,7 +105,7 @@ class App extends Component {
 
     const currentAppLocale = AppLocale[locale.locale];
     return (
-      <ConfigProvider locale={currentAppLocale.antd}>
+      <LocaleProvider locale={currentAppLocale.antd}>
         <IntlProvider
           locale={currentAppLocale.locale}
           messages={currentAppLocale.messages}>
@@ -117,7 +117,7 @@ class App extends Component {
                              component={MainApp}/>
           </Switch>
         </IntlProvider>
-      </ConfigProvider>
+      </LocaleProvider>
     )
   }
 }

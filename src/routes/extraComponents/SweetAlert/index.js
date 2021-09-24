@@ -2,8 +2,8 @@ import React from "react";
 import SweetAlert from "react-bootstrap-sweetalert";
 import {Button, Card, Col, Row} from "antd";
 
-import ContainerHeader from "src/components/ContainerHeader/index";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader/index";
+import IntlMessages from "util/IntlMessages";
 
 class SweetAlerts extends React.Component {
   onConfirm = () => {

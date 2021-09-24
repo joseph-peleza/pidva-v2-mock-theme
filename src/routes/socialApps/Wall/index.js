@@ -1,13 +1,13 @@
 import React, {Component} from "react";
 import {Col, Row} from "antd";
 
-import Profile from "src/components/wall/Profile/index";
-import PostList from "src/components/wall/PostList/index";
-import Interests from "src/components/wall/Interests/index";
-import Photos from "src/components/wall/Photos/index";
-import Friends from "src/components/wall/Friends/index";
-import CustomScrollbars from "src/util/CustomScrollbars";
-import RecentActivity from "src/components/dashboard/CRM/RecentActivity";
+import Profile from "components/wall/Profile/index";
+import PostList from "components/wall/PostList/index";
+import Interests from "components/wall/Interests/index";
+import Photos from "components/wall/Photos/index";
+import Friends from "components/wall/Friends/index";
+import CustomScrollbars from "util/CustomScrollbars";
+import RecentActivity from "components/dashboard/DashTwo/RecentActivity";
 import {communitiesList, friendList, interestList, photoList, postList, recentActivity, user, userInfo} from "./data"
 import Communities from "../../../components/wall/Communities/index";
 

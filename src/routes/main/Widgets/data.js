@@ -5,7 +5,7 @@ export const mediaList = [
     image: 'https://via.placeholder.com/575x372',
     image2: 'https://via.placeholder.com/80x80',
     title: 'Welcome to roadmap new',
-    desc: 'Crypto Expert'
+    desc: 'DashOne Expert'
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const mediaList = [
     image: 'https://via.placeholder.com/575x372',
     image2: 'https://via.placeholder.com/80x80',
     title: 'Welcome to roadmap',
-    desc: 'Crypto Expert'
+    desc: 'DashOne Expert'
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const mediaList = [
     image: 'https://via.placeholder.com/575x372',
     image2: 'https://via.placeholder.com/80x80',
     title: 'Welcome to roadmap new',
-    desc: 'Crypto Expert'
+    desc: 'DashOne Expert'
   },
 ];
 

@@ -2,7 +2,7 @@ import React from "react";
 import {Avatar} from "antd";
 import {Area, AreaChart, ResponsiveContainer} from "recharts";
 
-import Widget from "src/components/Widget/index";
+import Widget from "components/Widget/index";
 
 const data = [
   {name: 'Page A', price: 200},
@@ -25,7 +25,7 @@ const Productivity = () => {
         </div>
         <div className="gx-mb-3">
           <h2>Christina Johnson</h2>
-          <p className="gx-text-grey">Crypto Expert</p>
+          <p className="gx-text-grey">DashOne Expert</p>
         </div>
       </div>
       <div className="gx-rechart">

@@ -1,15 +1,15 @@
 import React, {Component} from "react";
 import {Avatar, Button, Drawer, Input, Tabs} from "antd";
-import CustomScrollbars from "src/util/CustomScrollbars";
+import CustomScrollbars from "util/CustomScrollbars";
 import Moment from "moment";
 
-import ChatUserList from "src/components/chat/ChatUserList";
+import ChatUserList from "components/chat/ChatUserList";
 import conversationList from "./data/conversationList";
-import Conversation from "src/components/chat/Conversation/index";
+import Conversation from "components/chat/Conversation/index";
 import users from "./data/chatUsers";
-import ContactList from "src/components/chat/ContactList/index";
-import IntlMessages from "src/util/IntlMessages";
-import SearchBox from "src/components/SearchBox";
+import ContactList from "components/chat/ContactList/index";
+import IntlMessages from "util/IntlMessages";
+import SearchBox from "components/SearchBox";
 import CircularProgress from "../../../components/CircularProgress/index";
 
 const TabPane = Tabs.TabPane;

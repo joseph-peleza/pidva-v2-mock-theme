@@ -6,8 +6,8 @@ import LineWithChangingColor from "./Components/LineWithChangingColor";
 import StackedArea from "./Components/StackedArea";
 import StackedAreaChart from "./Components/StackedAreaChart";
 import ZoomableValueAxis from "./Components/ZoomableValueAxis";
-import ContainerHeader from "src/components/ContainerHeader";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader";
+import IntlMessages from "util/IntlMessages";
 
 const AreaChart = ({match}) => {
   return (

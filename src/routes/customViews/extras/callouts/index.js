@@ -1,9 +1,9 @@
 import React from "react";
 
 import {Card, Col, Row} from "antd";
-import ContainerHeader from "src/components/ContainerHeader/index";
+import ContainerHeader from "components/ContainerHeader/index";
 import Basic from "./Basic/index";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 const Callouts = ({match}) => {
   return (

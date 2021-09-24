@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "antd";
 
 import GeolocationExample from "./Components/GeoLocation";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 
 const GeoLocation = () => {

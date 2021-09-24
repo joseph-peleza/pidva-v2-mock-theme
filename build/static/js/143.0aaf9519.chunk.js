@@ -1,2 +1,0 @@
-(this["webpackJsonppeleza-international"]=this["webpackJsonppeleza-international"]||[]).push([[143],{2104:function(n,e,t){"use strict";t.r(e);t(165);var a=t(85),c=(t(164),t(42)),i=(t(0),t(616)),s=t(615),r=t(2);e.default=function(){return Object(r.jsx)("div",{className:"gx-main-content",children:Object(r.jsx)(a.a,{children:i.a.map((function(n,e){return Object(r.jsx)(c.a,{span:24,children:Object(r.jsx)(s.a,{product:n},e)},e)}))})})}}}]);
-//# sourceMappingURL=143.0aaf9519.chunk.js.map

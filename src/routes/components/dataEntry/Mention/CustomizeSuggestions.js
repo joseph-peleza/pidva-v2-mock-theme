@@ -1,7 +1,7 @@
 import React from "react";
-import {Card, Mentions} from "antd";
+import {Card, Mention} from "antd";
 
-const Nav = Mentions.Nav;
+const Nav = Mention.Nav;
 
 const webFrameworks = [
   {name: 'React', type: 'JavaScript'},
@@ -39,7 +39,7 @@ class CustomizeSuggestions extends React.Component {
     const {suggestions} = this.state;
     return (
       <Card className="gx-card" title="Customize Suggestions">
-        <Mentions
+        <Mention
           placeholder="@someone"
           style={{width: '100%'}}
           suggestions={suggestions}

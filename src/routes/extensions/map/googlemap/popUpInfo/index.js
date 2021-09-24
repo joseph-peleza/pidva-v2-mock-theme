@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "antd";
 
 import MapPopupInfo from "./Components/MapPopupInfo";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 
 const PopUpInfo = () => {

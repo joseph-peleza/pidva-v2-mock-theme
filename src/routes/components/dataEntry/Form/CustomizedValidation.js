@@ -1,7 +1,5 @@
 import React from "react";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Card, Cascader, Col, DatePicker, Input, InputNumber, Select, TimePicker } from "antd";
+import {Card, Cascader, Col, DatePicker, Form, Input, InputNumber, Select, TimePicker} from "antd";
 
 const FormItem = Form.Item;
 const Option = Select.Option;

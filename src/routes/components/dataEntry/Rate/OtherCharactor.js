@@ -1,6 +1,5 @@
 import React from "react";
-import {Card, Rate} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Card, Icon, Rate} from "antd";
 
 const OtherCharactor = () => {
   return (

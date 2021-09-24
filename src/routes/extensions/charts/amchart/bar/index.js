@@ -1,9 +1,9 @@
 import React from "react";
 import {Card, Col, Row} from "antd";
 
-import ContainerHeader from "src/components/ContainerHeader";
+import ContainerHeader from "components/ContainerHeader";
 import ColumnWithRotatedSeries from "./Components/ColumnWithRotatedSeries";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 import SimpleColumnChart from "./Components/SimpleColumnChart";
 import ColumnAndLineMix from "./Components/ColumnAndLineMix";
 import Cylinder3DChart from "./Components/Cylinder3DChart";

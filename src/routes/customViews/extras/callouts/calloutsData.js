@@ -28,7 +28,7 @@ const calloutsData = [
   }, {
     image: 'https://via.placeholder.com/500x330',
     title: 'Infrared Saunas',
-    description: 'Many desktop publishing packages and web page editors now use Lorem Ipsum as their CRM model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).',
+    description: 'Many desktop publishing packages and web page editors now use Lorem Ipsum as their DashTwo model text, and a search for \'lorem ipsum\' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).',
   },
 ];
 export default calloutsData;

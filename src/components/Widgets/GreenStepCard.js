@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import {greenStepList} from "../../routes/main/Widgets/data"
 import GreenStepItem from "./GreenStepItem";
-import Widget from "src/components/Widget/index";
+import Widget from "components/Widget/index";
 
 class GreenStepCard extends Component {
 

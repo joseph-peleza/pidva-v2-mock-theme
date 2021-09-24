@@ -1,6 +1,5 @@
 import React from "react";
-import {Button, Card, Upload} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Button, Card, Icon, Upload} from "antd";
 
 const props = {
   action: '//jsonplaceholder.typicode.com/posts/',

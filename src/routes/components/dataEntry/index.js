@@ -1,10 +1,10 @@
 import React from "react";
 import {Redirect, Route, Switch} from "react-router-dom";
 
-import asyncComponent from "src/util/asyncComponent";
+import asyncComponent from "util/asyncComponent";
 
 
-const DataEntry = ({match}) => (
+const Widgets = ({match}) => (
   <Switch>
     <Redirect exact from={`${match.url}/`} to={`${match.url}/autoComplete`}/>
     <Route path={`${match.url}/autoComplete`} component={asyncComponent(() => import('./AutoComplete/'))}/>
@@ -27,4 +27,4 @@ const DataEntry = ({match}) => (
   </Switch>
 );
 
-export default DataEntry;
+export default Widgets;

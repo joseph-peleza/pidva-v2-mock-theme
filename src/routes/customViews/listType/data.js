@@ -90,7 +90,7 @@ export const data = [
       {name: 'java'}
     ],
     image: 'https://via.placeholder.com/150x150',
-    description: "Many desktop publishing packages and web page editors now use Lorem Ipsum as their CRM model text, and a search for 'lorem ipsum' "
+    description: "Many desktop publishing packages and web page editors now use Lorem Ipsum as their DashTwo model text, and a search for 'lorem ipsum' "
   },
   {
     name: 'Domnic Brown',

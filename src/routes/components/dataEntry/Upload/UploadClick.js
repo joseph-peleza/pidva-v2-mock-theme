@@ -1,6 +1,5 @@
 import React from "react";
-import {Button, Card, message, Upload} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Button, Card, Icon, message, Upload} from "antd";
 
 const props = {
   name: 'file',

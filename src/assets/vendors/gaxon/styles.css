@@ -326,11 +326,11 @@
   content: "\2a";
 }
 
-.icon-crm:before {
+.icon-dashTwo:before {
   content: "\2b";
 }
 
-.icon-crypto:before {
+.icon-dashOne:before {
   content: "\2c";
 }
 
@@ -578,7 +578,7 @@
   content: "\e028";
 }
 
-.icon-listing-dbrd:before {
+.icon-dashThree-dbrd:before {
   content: "\e029";
 }
 

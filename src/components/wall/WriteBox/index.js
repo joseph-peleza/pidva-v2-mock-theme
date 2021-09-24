@@ -1,6 +1,5 @@
 import React, {Component} from "react";
-import {Avatar, Button, Card, Divider, Input, Modal, Upload} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Avatar, Button, Card, Divider, Icon, Input, Modal, Upload} from "antd";
 
 const {TextArea} = Input;
 

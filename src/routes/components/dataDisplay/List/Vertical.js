@@ -1,6 +1,5 @@
 import React from "react";
-import {Avatar, Card, List} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Avatar, Card, Icon, List} from "antd";
 
 const listData = [];
 for (let i = 0; i < 5; i++) {

@@ -1,7 +1,7 @@
 import React from "react";
-import {Card, Mentions} from "antd";
+import {Card, Mention} from "antd";
 
-const {toString} = Mentions;
+const {toString} = Mention;
 
 const MultilineMode = () => {
     function onChange(editorState) {
@@ -10,7 +10,7 @@ const MultilineMode = () => {
 
     return (
       <Card className="gx-card" title="Multiline Mode">
-        <Mentions
+        <Mention
           style={{width: '100%', height: 100}}
           onChange={onChange}
           suggestions={['afc163', 'benjycui', 'yiminghe', 'jljsj33', 'dqaria', 'RaoHai']}

@@ -1,8 +1,5 @@
 import React from "react";
-import { Button, Checkbox, Input, message } from "antd";
-import { Form, Icon } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-
+import {Button, Checkbox, Form, Icon, Input, message} from "antd";
 import {connect} from "react-redux";
 import {Link} from "react-router-dom";
 
@@ -14,9 +11,9 @@ import {
   userGoogleSignIn,
   userSignIn,
   userTwitterSignIn
-} from "src/appRedux/actions/Auth";
-import IntlMessages from "src/util/IntlMessages";
-import CircularProgress from "src/components/CircularProgress/index";
+} from "appRedux/actions/Auth";
+import IntlMessages from "util/IntlMessages";
+import CircularProgress from "components/CircularProgress/index";
 
 const FormItem = Form.Item;
 
@@ -61,7 +58,7 @@ class SignIn extends React.Component {
                 <p><IntlMessages id="app.userAuth.getAccount"/></p>
               </div>
               <div className="gx-app-logo">
-                <img alt="example" src={require("src/assets/images/logo.png")}/>
+                <img alt="example" src={require("assets/images/logo.png")}/>
               </div>
             </div>
             <div className="gx-app-login-content">

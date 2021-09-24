@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "antd";
 
 import MapDirections from "./Components/MapDirections";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 const Directions = () => {
   return (

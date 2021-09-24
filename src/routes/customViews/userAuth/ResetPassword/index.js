@@ -1,8 +1,6 @@
 import React, {Component} from "react";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Button, Input } from "antd";
-import IntlMessages from "src/util/IntlMessages";
+import {Button, Form, Input} from "antd";
+import IntlMessages from "util/IntlMessages";
 
 const FormItem = Form.Item;
 
@@ -43,7 +41,7 @@ class ResetPassword extends Component {
         <div className="gx-login-content">
 
           <div className="gx-login-header">
-            <img src={require("src/assets/images/logo-white.png")} alt="wieldy" title="wieldy"/>
+            <img src={require("assets/images/logo-white.png")} alt="wieldy" title="wieldy"/>
           </div>
           <div className="gx-mb-4">
             <h2>Reset Password</h2>

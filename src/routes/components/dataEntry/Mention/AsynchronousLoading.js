@@ -1,5 +1,5 @@
 import React from "react";
-import {Card, Mentions} from "antd";
+import {Card, Mention} from "antd";
 
 const users = ['afc163', 'benjycui', 'yiminghe', 'jljsj33', 'dqaria', 'RaoHai'];
 
@@ -31,7 +31,7 @@ class AsynchronousLoading extends React.Component {
     const {suggestions, loading} = this.state;
     return (
       <Card className="gx-card" title="Asynchronous Loading">
-        <Mentions
+        <Mention
           style={{width: '100%'}}
           loading={loading}
           suggestions={suggestions}

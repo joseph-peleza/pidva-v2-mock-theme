@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "antd";
 
 import CustomMapMarkers from "./Components/CustomMapMarkers";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 const MapMarkers = () => {
   return (

@@ -1,11 +1,11 @@
 import React from "react";
-import { Calendar } from "react-big-calendar";
+import BigCalendar from "react-big-calendar";
 import moment from "moment";
 
 import events from "../events";
 
-Calendar.setLocalizer(
-  Calendar.momentLocalizer(moment)
+BigCalendar.setLocalizer(
+  BigCalendar.momentLocalizer(moment)
 );
 const Selectable = () => {
   return (
@@ -15,7 +15,7 @@ const Selectable = () => {
           Click an event to see more info, or
           drag the mouse over the calendar to select a date/time range.
         </h3>
-        <Calendar
+        <BigCalendar
           selectable
           events={events}
           defaultView='week'

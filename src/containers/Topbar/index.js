@@ -2,14 +2,14 @@ import React, {Component} from "react";
 import {Layout, Popover} from "antd";
 import {Link} from "react-router-dom";
 
-import CustomScrollbars from "src/util/CustomScrollbars";
+import CustomScrollbars from "util/CustomScrollbars";
 import languageData from "./languageData";
 import {switchLanguage, toggleCollapsedSideNav} from "../../appRedux/actions/Setting";
-import SearchBox from "src/components/SearchBox";
-import UserInfo from "src/components/UserInfo";
-import AppNotification from "src/components/AppNotification";
-import MailNotification from "src/components/MailNotification";
-import Auxiliary from "src/util/Auxiliary";
+import SearchBox from "components/SearchBox";
+import UserInfo from "components/UserInfo";
+import AppNotification from "components/AppNotification";
+import MailNotification from "components/MailNotification";
+import Auxiliary from "util/Auxiliary";
 
 
 import {NAV_STYLE_DRAWER, NAV_STYLE_FIXED, NAV_STYLE_MINI_SIDEBAR, TAB_SIZE} from "../../constants/ThemeSetting";
@@ -58,7 +58,7 @@ class Topbar extends Component {
               />
             </div> : null}
           <Link to="/" className="gx-d-block gx-d-lg-none gx-pointer">
-            <img alt="" src={require("src/assets/images/w-logo.png")}/></Link>
+            <img alt="" src={require("assets/images/w-logo.png")}/></Link>
 
           <SearchBox styleName="gx-d-none gx-d-lg-block gx-lt-icon-search-bar-lg"
                      placeholder="Search in app..."

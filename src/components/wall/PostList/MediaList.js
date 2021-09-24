@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import GreedImage from "./GridImage";
-import Auxiliary from "src/util/Auxiliary";
+import Auxiliary from "util/Auxiliary";
 
 class MediaList extends Component {
 

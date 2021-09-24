@@ -1,8 +1,6 @@
 import React, {Component} from "react";
 import {connect} from "react-redux";
-import { Button, Card, Checkbox, Input, message } from "antd";
-import { Form, Icon } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
+import {Button, Card, Checkbox, Form, Icon, Input, message} from "antd";
 
 import {
   hideMessage,
@@ -12,9 +10,9 @@ import {
   userGoogleSignIn,
   userSignIn,
   userTwitterSignIn
-} from "src/appRedux/actions/Auth";
+} from "appRedux/actions/Auth";
 import "./horizontalLoginForm.less";
-import CircularProgress from "src/components/CircularProgress/index";
+import CircularProgress from "components/CircularProgress/index";
 
 const FormItem = Form.Item;
 

@@ -1,7 +1,7 @@
 import React from "react";
-import {Card, Mentions} from "antd";
+import {Card, Mention} from "antd";
 
-const {toString, toContentState} = Mentions;
+const {toString, toContentState} = Mention;
 
 const Basic = () => {
   function onChange(contentState) {
@@ -14,7 +14,7 @@ const Basic = () => {
 
   return (
     <Card className="gx-card" title="Basic">
-      <Mentions
+      <Mention
         style={{width: '100%'}}
         onChange={onChange}
         defaultValue={toContentState('@afc163')}

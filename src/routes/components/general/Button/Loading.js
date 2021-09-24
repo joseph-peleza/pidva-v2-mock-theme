@@ -1,5 +1,4 @@
 import React, {Component} from "react";
-import { PoweroffOutlined } from '@ant-design/icons';
 import {Button, Card} from "antd";
 
 class Loading extends Component {
@@ -29,7 +28,7 @@ class Loading extends Component {
         <Button type="primary" loading={this.state.loading} onClick={this.enterLoading}>
           Click me!
         </Button>
-        <Button type="primary" icon={<PoweroffOutlined />} loading={this.state.iconLoading} onClick={this.enterIconLoading}>
+        <Button type="primary" icon="poweroff" loading={this.state.iconLoading} onClick={this.enterIconLoading}>
           Click me!
         </Button>
         <br/>

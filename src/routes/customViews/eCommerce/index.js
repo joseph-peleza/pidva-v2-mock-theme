@@ -1,6 +1,6 @@
 import React from "react";
 import {Redirect, Route, Switch} from "react-router-dom";
-import asyncComponent from "src/util/asyncComponent";
+import asyncComponent from "util/asyncComponent";
 
 const eCommerce = ({match}) => (
   <Switch>

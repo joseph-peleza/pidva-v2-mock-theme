@@ -1,11 +1,10 @@
 import React from "react";
-import { hot } from 'react-hot-loader';
-import {ConnectedRouter} from "connected-react-router";
+import {ConnectedRouter} from "react-router-redux";
 import {Provider} from "react-redux";
 import {Route, Switch} from "react-router-dom";
 
-import "src/assets/vendors/style";
-import "src/styles/wieldy.less";
+import "assets/vendors/style";
+import "styles/wieldy.less";
 import configureStore, {history} from "./appRedux/store";
 import "./firebase/firebase";
 import App from "./containers/App/index";
@@ -23,4 +22,4 @@ const NextApp = () =>
   </Provider>;
 
 
-export default hot(module)(NextApp);
+export default NextApp;

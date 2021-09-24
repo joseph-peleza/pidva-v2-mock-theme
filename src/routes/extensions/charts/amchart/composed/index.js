@@ -1,8 +1,8 @@
 import React from "react";
 import {Card, Col, Row} from "antd";
 
-import ContainerHeader from "src/components/ContainerHeader";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader";
+import IntlMessages from "util/IntlMessages";
 import DurationOnValueAxis from "./Components/DurationOnValueAxis";
 import ReversedValueAxis from "./Components/ReversedValueAxis";
 import PyramidChart from "./Components/PyramidChart";

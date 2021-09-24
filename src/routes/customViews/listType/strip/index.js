@@ -2,8 +2,8 @@ import React from "react";
 import StripListItem from "../Component/StripListItem";
 import {data} from "../data";
 import {Col, Row} from "antd";
-import ContainerHeader from "src/components/ContainerHeader/index";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader/index";
+import IntlMessages from "util/IntlMessages";
 
 function StripList({match}) {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import Callouts from "src/components/callouts/Callouts";
+import Callouts from "components/callouts/Callouts";
 import calloutsData from "../calloutsData";
 
 const Basic = () => {

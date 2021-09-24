@@ -2,11 +2,11 @@ import React, {Component} from "react";
 import {Col, Row} from "antd";
 
 import ContactCell from "./ContactCell/index";
-import contacts from "src/routes/inBuiltApps/Contact/data/contactList";
+import contacts from "routes/inBuiltApps/Contact/data/contactList";
 import {arrayMove, SortableContainer} from "react-sortable-hoc";
 
-import ContainerHeader from "src/components/ContainerHeader/index";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader/index";
+import IntlMessages from "util/IntlMessages";
 
 const Contacts = SortableContainer(({contacts}) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
-import {Card, Mentions} from "antd";
+import {Card, Mention} from "antd";
 
-const {toString} = Mentions;
+const {toString} = Mention;
 
 const Placement = () => {
     function onChange(contentState) {
@@ -14,7 +14,7 @@ const Placement = () => {
 
     return (
       <Card className="gx-card" title="Placement">
-        <Mentions
+        <Mention
           style={{width: '100%'}}
           onChange={onChange}
           suggestions={['afc163', 'benjycui', 'yiminghe', 'RaoHai', '中文', 'にほんご']}

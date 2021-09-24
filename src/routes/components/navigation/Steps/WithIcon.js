@@ -1,6 +1,5 @@
 import React from "react";
-import {Card, Steps} from "antd";
-import { Icon } from "@ant-design/compatible";
+import {Card, Icon, Steps} from "antd";
 
 const Step = Steps.Step;
 

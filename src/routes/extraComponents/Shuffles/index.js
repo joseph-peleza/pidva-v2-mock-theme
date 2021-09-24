@@ -1,8 +1,8 @@
 import React, {Component} from "react";
 import FlipMove from 'react-flip-move';
 import shuffle from 'lodash/shuffle';
-import ProductItem from "src/components/eCommerce/ProductItem";
-import productData from "src/routes/customViews/eCommerce/productData";
+import ProductItem from "components/eCommerce/ProductItem";
+import productData from "routes/customViews/eCommerce/productData";
 import {Button, Col, Row} from "antd";
 
 import Auxiliary from "../../../util/Auxiliary";

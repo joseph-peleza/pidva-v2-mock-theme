@@ -49,22 +49,22 @@ class HorizontalNav extends Component {
           <SubMenu className="gx-menu-horizontal" key="dashboard"
                    title={<span> <i className="icon icon-dasbhoard"/>
                          <IntlMessages id="sidebar.dashboard"/></span>}>
-            <Menu.Item key="main/dashboard/crypto">
-              <Link to="/main/dashboard/crypto">
-                <i className="icon icon-crypto"/>
-                <IntlMessages id="sidebar.dashboard.crypto"/>
+            <Menu.Item key="main/dashboard/dashOne">
+              <Link to="/main/dashboard/dashOne">
+                <i className="icon icon-dashOne"/>
+                <IntlMessages id="sidebar.dashboard.dashOne"/>
               </Link>
             </Menu.Item>
-            <Menu.Item key="main/dashboard/crm">
-              <Link to="/main/dashboard/crm">
-                <i className="icon icon-crm"/>
-                <IntlMessages id="sidebar.dashboard.crm"/>
+            <Menu.Item key="main/dashboard/dashTwo">
+              <Link to="/main/dashboard/dashTwo">
+                <i className="icon icon-dashTwo"/>
+                <IntlMessages id="sidebar.dashboard.dashTwo"/>
               </Link>
             </Menu.Item>
-            <Menu.Item key="main/dashboard/listing">
-              <Link to="/main/dashboard/listing">
-                <i className="icon icon-listing-dbrd"/>
-                <IntlMessages id="sidebar.dashboard.listing"/>
+            <Menu.Item key="main/dashboard/dashThree">
+              <Link to="/main/dashboard/dashThree">
+                <i className="icon icon-dashThree-dbrd"/>
+                <IntlMessages id="sidebar.dashboard.dashThree"/>
               </Link>
             </Menu.Item>
           </SubMenu>

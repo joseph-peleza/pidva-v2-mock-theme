@@ -5,8 +5,8 @@ import LineBarAreaComposedChart from "./Components/LineBarAreaComposedChart";
 import VerticalComposedChart from "./Components/VerticalComposedChart";
 import SameDataComposedChart from "./Components/SameDataComposedChart";
 import ComposedChartWithAxisLabels from "./Components/ComposedChartWithAxisLabels";
-import ContainerHeader from "src/components/ContainerHeader";
-import IntlMessages from "src/util/IntlMessages";
+import ContainerHeader from "components/ContainerHeader";
+import IntlMessages from "util/IntlMessages";
 
 const ComposedChart = ({match}) => {
   return (

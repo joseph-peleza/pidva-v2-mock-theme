@@ -2,7 +2,7 @@ import React from "react";
 import {Card} from "antd";
 
 import DrillDownMap from "./Components/DrillDownMap";
-import IntlMessages from "src/util/IntlMessages";
+import IntlMessages from "util/IntlMessages";
 
 const DrillDown = () => {
   return (

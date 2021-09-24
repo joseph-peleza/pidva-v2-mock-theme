@@ -1,8 +1,6 @@
 import React, {Component} from "react";
-import { Form } from '@ant-design/compatible';
-import '@ant-design/compatible/assets/index.css';
-import { Avatar, Button, Input } from "antd";
-import IntlMessages from "src/util/IntlMessages";
+import {Avatar, Button, Form, Input} from "antd";
+import IntlMessages from "util/IntlMessages";
 
 const FormItem = Form.Item;
 
