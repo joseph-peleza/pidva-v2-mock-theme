@@ -1,30 +1,30 @@
 import React from "react";
 import {Col, Row} from "antd";
-import Productivity from "components/Widgets/Productivity";
-import Newseletter from "components/Widgets/Newsletter";
-import SocialMedia from "components/Widgets/SocialMedia";
-import ProjectWidget from "components/Widgets/ProjectWidget";
-import RoadMap from "components/Widgets/RoadMap";
-import FlyingBird from "components/Widgets/FlyingBird";
-import DryFruit from "components/Widgets/DryFruit";
-import AayurvedaCard from "components/Widgets/AayurvedaCard";
-import ToolTheDay from "components/Widgets/ToolTheDay";
-import SmartHomeCard from "components/Widgets/SmartHomeCard";
-import PhotosCard from "components/Widgets/PhotosCard";
-import UnreadMessagesCard from "components/Widgets/UnreadMessagesCard";
-import IconCard from "components/Widgets/IconCard";
-import WorkStatusCard from "components/Widgets/WorkStatusCard";
-import UserCard from "components/Widgets/UserCard";
-import IncreamentCard from "components/Widgets/IncreamentCard";
-import CampaignCard from "components/Widgets/CampaignCard";
-import BuildingCard from "components/Widgets/BuildingCard";
-import GreenStepCard from "components/Widgets/GreenStepCard";
-import FriendshipCard from "components/Widgets/FriendshipCard";
-import NewPhotos from "components/Widgets/NewPhotos";
+import Productivity from "components/DataEntry/Productivity";
+import Newseletter from "components/DataEntry/Newsletter";
+import SocialMedia from "components/DataEntry/SocialMedia";
+import ProjectWidget from "components/DataEntry/ProjectWidget";
+import RoadMap from "components/DataEntry/RoadMap";
+import FlyingBird from "components/DataEntry/FlyingBird";
+import DryFruit from "components/DataEntry/DryFruit";
+import AayurvedaCard from "components/DataEntry/AayurvedaCard";
+import ToolTheDay from "components/DataEntry/ToolTheDay";
+import SmartHomeCard from "components/DataEntry/SmartHomeCard";
+import PhotosCard from "components/DataEntry/PhotosCard";
+import UnreadMessagesCard from "components/DataEntry/UnreadMessagesCard";
+import IconCard from "components/DataEntry/IconCard";
+import WorkStatusCard from "components/DataEntry/WorkStatusCard";
+import UserCard from "components/DataEntry/UserCard";
+import IncreamentCard from "components/DataEntry/IncreamentCard";
+import CampaignCard from "components/DataEntry/CampaignCard";
+import BuildingCard from "components/DataEntry/BuildingCard";
+import GreenStepCard from "components/DataEntry/GreenStepCard";
+import FriendshipCard from "components/DataEntry/FriendshipCard";
+import NewPhotos from "components/DataEntry/NewPhotos";
 import Auxiliary from "util/Auxiliary";
 
 
-const Widgets = () => {
+const DataEntry = () => {
   return (
     <Auxiliary>
       <Row>
@@ -115,4 +115,4 @@ const Widgets = () => {
   );
 };
 
-export default Widgets;
+export default DataEntry;

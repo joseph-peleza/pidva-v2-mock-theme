@@ -53,7 +53,8 @@ class SidebarContent extends Component {
               selectedKeys={[selectedKeys]}
               theme={themeType === THEME_TYPE_LITE ? 'lite' : 'dark'}
               mode="inline">
-
+              
+              {/* Home */}
               <MenuItemGroup key="main" className="gx-menu-group" title={<IntlMessages id="sidebar.main"/>}>
                 <SubMenu key="dashboard" className={this.getNavStyleSubMenuClass(navStyle)}
                          title={<span> <i className="icon icon-dasbhoard"/>
@@ -82,7 +83,7 @@ class SidebarContent extends Component {
                   <Link to="/main/widgets"><i className="icon icon-widgets"/>
                     <IntlMessages id="sidebar.widgets"/></Link>
                 </Menu.Item>
-
+{/* 
                 <Menu.Item key="main/metrics">
                   <Link to="/main/metrics"><i className="icon icon-apps"/>
                     <IntlMessages id="sidebar.metrics"/></Link>
@@ -91,10 +92,11 @@ class SidebarContent extends Component {
                 <Menu.Item key="main/layouts">
                   <Link to="/main/layouts"><i className="icon icon-card"/>
                     <IntlMessages id="sidebar.layouts"/></Link>
-                </Menu.Item>
+                </Menu.Item> */}
 
               </MenuItemGroup>
 
+              {/* Management */}
               <MenuItemGroup key="in-built-apps" className="gx-menu-group"
                              title={<IntlMessages id="sidebar.inBuiltApp"/>}>
                 <Menu.Item key="in-built-apps/mail">
@@ -124,7 +126,7 @@ class SidebarContent extends Component {
                     <IntlMessages id="sidebar.notes"/></Link>
                 </Menu.Item>
 
-                <Menu.Item key="main/algolia">
+                {/* <Menu.Item key="main/algolia">
                   <Link to="/main/algolia"><i className="icon icon-shopping-cart "/>
                     <IntlMessages id="sidebar.algolia"/></Link>
                 </Menu.Item>
@@ -133,9 +135,10 @@ class SidebarContent extends Component {
                   <Link to="/in-built-apps/firebase-crud"><i
                     className="icon icon-icon"/><IntlMessages
                     id="sidebar.crud"/></Link>
-                </Menu.Item>
+                </Menu.Item> */}
               </MenuItemGroup>
 
+              {/* Payments */}
               <MenuItemGroup key="social-apps" className="gx-menu-group" title={<IntlMessages id="sidebar.social"/>}>
                 <Menu.Item key="social-apps/profile">
                   <Link to="/social-apps/profile">
@@ -150,8 +153,14 @@ class SidebarContent extends Component {
                     <IntlMessages id="sidebar.wall"/>
                   </Link>
                 </Menu.Item>
+
+                <Menu.Item key="main/algolia">
+                  <Link to="/main/algolia"><i className="icon icon-shopping-cart "/>
+                    <IntlMessages id="sidebar.algolia"/></Link>
+                </Menu.Item>
               </MenuItemGroup>
 
+              {/* My Profile */}
               <MenuItemGroup key="components" className="gx-menu-group" title={<IntlMessages id="sidebar.components"/>}>
 
                 <SubMenu key="general" className={this.getNavStyleSubMenuClass(navStyle)} title={
@@ -299,7 +308,7 @@ class SidebarContent extends Component {
                   </Menu.Item>
                 </SubMenu>
 
-                <SubMenu key="dataDisplay" className={this.getNavStyleSubMenuClass(navStyle)} title={
+                {/* <SubMenu key="dataDisplay" className={this.getNavStyleSubMenuClass(navStyle)} title={
                   <span>
                   <i className="icon icon-data-display"/>
 
@@ -457,10 +466,11 @@ class SidebarContent extends Component {
                       <IntlMessages
                         id="sidebar.view.dataTable"/></Link>
                   </Menu.Item>
-                </SubMenu>
+                </SubMenu> */}
 
               </MenuItemGroup>
 
+              {/* Data Files Manager */}
               <MenuItemGroup key="extraComponents" className="gx-menu-group"
                              title={<IntlMessages id="sidebar.extraComponents"/>}>
 
@@ -514,7 +524,7 @@ class SidebarContent extends Component {
                       id="sidebar.extensions.notification"/></Link>
                 </Menu.Item>
 
-                <SubMenu key="time-line" className={this.getNavStyleSubMenuClass(navStyle)}
+                {/* <SubMenu key="time-line" className={this.getNavStyleSubMenuClass(navStyle)}
                          title={<span><i className="icon icon-timeline"/><IntlMessages
                            id="sidebar.timeLine"/></span>}>
                   <Menu.Item key="extra-components/time-line/default">
@@ -538,10 +548,11 @@ class SidebarContent extends Component {
                   <Link to="/extra-components/shuffle"><i className="icon icon-shuffle"/>
                     <IntlMessages
                       id="sidebar.extensions.shuffle"/></Link>
-                </Menu.Item>
+                </Menu.Item> */}
 
               </MenuItemGroup>
-
+              
+              {/* Peleza Searches */}
               <MenuItemGroup key="extensions" className="gx-menu-group" title={<IntlMessages id="sidebar.extensions"/>}>
 
                 <SubMenu key="map" className={this.getNavStyleSubMenuClass(navStyle)}
@@ -812,8 +823,15 @@ class SidebarContent extends Component {
                   </Menu.Item>
                 </SubMenu>
 
+                <Menu.Item key="extra-components/shuffle">
+                  <Link to="/extra-components/shuffle"><i className="icon icon-shuffle"/>
+                    <IntlMessages
+                      id="sidebar.extensions.shuffle"/></Link>
+                </Menu.Item>
+
               </MenuItemGroup>
 
+              {/* Module Configuration */}
               <MenuItemGroup key="custom-views" className="gx-menu-group"
                              title={<IntlMessages id="sidebar.customViews"/>}>
                 <SubMenu key="user-auth" className={this.getNavStyleSubMenuClass(navStyle)}
@@ -919,7 +937,8 @@ class SidebarContent extends Component {
                 </SubMenu>
 
               </MenuItemGroup>
-
+              
+              {/* Peleza Clients */}
               <MenuItemGroup key="documents" className="gx-menu-group" title={<IntlMessages id="sidebar.documents"/>}>
 
                 <Menu.Item key="documents/changelog">
