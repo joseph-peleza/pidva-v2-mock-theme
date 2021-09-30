@@ -10,7 +10,7 @@ class TicketList extends React.Component {
     return (
       <Widget title={
         <h2 className="h4 gx-text-capitalize gx-mb-0">
-          Recent Tickets</h2>
+          Leave Application</h2>
       } styleName="gx-card-ticketlist"
               extra={<h5 className="gx-text-primary gx-mb-0 gx-pointer gx-d-none gx-d-sm-block">
                 See all tickets <i
