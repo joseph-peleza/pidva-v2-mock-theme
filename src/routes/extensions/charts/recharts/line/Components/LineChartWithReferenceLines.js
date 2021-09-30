@@ -22,7 +22,7 @@ const LineChartWithReferenceLines = () => (
       <CartesianGrid strokeDasharray="3 3"/>
       <Tooltip/>
       <Legend/>
-      <ReferenceLine x="Page C" stroke="red" label="Max PV PAGE"/>
+      <ReferenceLine x="Angel" stroke="red" label="Max PV PAGE"/>
       <ReferenceLine y={9800} label="Max" stroke="red"/>
       <Line type="monotone" dataKey="price" stroke="#003366"/>
       <Line type="monotone" dataKey="uv" stroke="#FE9E15"/>

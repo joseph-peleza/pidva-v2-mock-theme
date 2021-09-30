@@ -126,6 +126,9 @@ const DashOne = () => {
           </Row>
         </Col>
 
+        <Col lg={24} md={24} sm={24} xs={24}>
+          <h2 className="h4 gx-text-capitalize gx-mb-0" style={{padding:"10px"}}>Productivity</h2>
+        </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
           <Card className="gx-card" title="Final Reports TAT">
             <TinyBarChart />

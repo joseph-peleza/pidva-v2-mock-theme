@@ -231,10 +231,10 @@ export const totalRevenueData = [
 ];
 
 export const trafficData = [
-  {name: 'Page A', value: 0},
-  {name: 'Page B', value: 2000},
-  {name: 'Page C', value: 600},
-  {name: 'Page D', value: 4400},
-  {name: 'Page D', value: 900},
+  {name: 'Ken', value: 0},
+  {name: 'Nephat', value: 2000},
+  {name: 'Angel', value: 600},
+  {name: 'Cynthia', value: 4400},
+  {name: 'Cynthia', value: 900},
   {name: 'Page H', value: 4860},
 ];

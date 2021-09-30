@@ -2,13 +2,13 @@ import React from "react";
 import {Area, AreaChart, CartesianGrid, ResponsiveContainer, Tooltip, XAxis, YAxis} from "recharts";
 
 const data = [
-  {name: 'Page A', uv: 4000},
-  {name: 'Page B', uv: 3000},
-  {name: 'Page C', uv: 2000},
-  {name: 'Page D'},
-  {name: 'Page E', uv: 1890},
-  {name: 'Page F', uv: 2390},
-  {name: 'Page G', uv: 3490},
+  {name: 'Ken', uv: 4000},
+  {name: 'Nephat', uv: 3000},
+  {name: 'Angel', uv: 2000},
+  {name: 'Cynthia'},
+  {name: 'Joseph', uv: 1890},
+  {name: 'Derrick', uv: 2390},
+  {name: 'Catherine', uv: 3490},
 ];
 const AreaChartConnectNulls = () => (
   <ResponsiveContainer width="100%">

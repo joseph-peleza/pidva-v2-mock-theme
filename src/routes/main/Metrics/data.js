@@ -1,118 +1,118 @@
 export const growthData = [
-  {name: 'Page A', price: 1200},
-  {name: 'Page B', price: 600},
-  {name: 'Page C', price: 1200},
-  {name: 'Page D', price: 600},
-  {name: 'Page D', price: 900}
+  {name: 'Ken', price: 1200},
+  {name: 'Nephat', price: 600},
+  {name: 'Angel', price: 1200},
+  {name: 'Cynthia', price: 600},
+  {name: 'Cynthia', price: 900}
 
 ];
 export const growth2Data = [
-  {name: 'Page A', revenue: 1200},
-  {name: 'Page B', revenue: 600},
-  {name: 'Page C', revenue: 1200},
-  {name: 'Page D', revenue: 600},
-  {name: 'Page D', revenue: 900}
+  {name: 'Ken', revenue: 1200},
+  {name: 'Nephat', revenue: 600},
+  {name: 'Angel', revenue: 1200},
+  {name: 'Cynthia', revenue: 600},
+  {name: 'Cynthia', revenue: 900}
 
 ];
 
 export const trafficData = [
-  {name: 'Page A', income: 200},
-  {name: 'Page B', income: 900},
-  {name: 'Page C', income: 600},
-  {name: 'Page D', income: 1600},
-  {name: 'Page D', income: 900}
+  {name: 'Ken', income: 200},
+  {name: 'Nephat', income: 900},
+  {name: 'Angel', income: 600},
+  {name: 'Cynthia', income: 1600},
+  {name: 'Cynthia', income: 900}
 ];
 
 export const trafficRaiseData = [
-  {name: 'Page A', traffic: 200},
-  {name: 'Page B', traffic: 900},
-  {name: 'Page C', traffic: 600},
-  {name: 'Page D', traffic: 1600},
-  {name: 'Page D', traffic: 900}
+  {name: 'Ken', traffic: 200},
+  {name: 'Nephat', traffic: 900},
+  {name: 'Angel', traffic: 600},
+  {name: 'Cynthia', traffic: 1600},
+  {name: 'Cynthia', traffic: 900}
 ];
 
 
 export const revenueData = [
-  {name: 'Page A', revenue: 850},
-  {name: 'Page B', revenue: 300},
-  {name: 'Page C', revenue: 1100},
-  {name: 'Page D', revenue: 600},
+  {name: 'Ken', revenue: 850},
+  {name: 'Nephat', revenue: 300},
+  {name: 'Angel', revenue: 1100},
+  {name: 'Cynthia', revenue: 600},
 ];
 
 export const propertiesData = [
-  {name: 'Page A', properties: 200},
-  {name: 'Page B', properties: 1200},
-  {name: 'Page C', properties: 600},
-  {name: 'Page D', properties: 1600},
-  {name: 'Page D', properties: 1000},
+  {name: 'Ken', properties: 200},
+  {name: 'Nephat', properties: 1200},
+  {name: 'Angel', properties: 600},
+  {name: 'Cynthia', properties: 1600},
+  {name: 'Cynthia', properties: 1000},
   {name: 'Page H', properties: 2260},
   {name: 'Page K', properties: 800},
 ];
 export const citiesData = [
-  {name: 'Page A', cities: 200},
-  {name: 'Page B', cities: 1200},
-  {name: 'Page C', cities: 600},
-  {name: 'Page D', cities: 1600},
-  {name: 'Page D', cities: 1000},
+  {name: 'Ken', cities: 200},
+  {name: 'Nephat', cities: 1200},
+  {name: 'Angel', cities: 600},
+  {name: 'Cynthia', cities: 1600},
+  {name: 'Cynthia', cities: 1000},
   {name: 'Page H', cities: 2260},
   {name: 'Page K', cities: 800},
 ];
 export const visitsData = [
-  {name: 'Page A', visit: 200},
-  {name: 'Page B', visit: 1200},
-  {name: 'Page C', visit: 600},
-  {name: 'Page D', visit: 1600},
-  {name: 'Page D', visit: 1000},
+  {name: 'Ken', visit: 200},
+  {name: 'Nephat', visit: 1200},
+  {name: 'Angel', visit: 600},
+  {name: 'Cynthia', visit: 1600},
+  {name: 'Cynthia', visit: 1000},
   {name: 'Page H', visit: 2260},
   {name: 'Page K', visit: 800},
 ];
 
 export const queriesData = [
-  {name: 'Page A', queries: 200},
-  {name: 'Page B', queries: 1200},
-  {name: 'Page C', queries: 600},
-  {name: 'Page D', queries: 1600},
-  {name: 'Page D', queries: 1000},
+  {name: 'Ken', queries: 200},
+  {name: 'Nephat', queries: 1200},
+  {name: 'Angel', queries: 600},
+  {name: 'Cynthia', queries: 1600},
+  {name: 'Cynthia', queries: 1000},
   {name: 'Page H', queries: 2260},
   {name: 'Page K', queries: 800},
 ];
 
 export const increamentData = [
-  {name: 'Page A', price: 200},
-  {name: 'Page B', price: 1200},
-  {name: 'Page C', price: 600},
-  {name: 'Page D', price: 1600},
-  {name: 'Page D', price: 1000},
-  {name: 'Page H', price: 2260},
-  {name: 'Page K', price: 800},
+  {name: 'Ken', price: 200},
+  {name: 'Nephat', price: 1200},
+  {name: 'Angel', price: 600},
+  {name: 'Cynthia', price: 1600},
+  {name: 'Joseph', price: 1000},
+  {name: 'Derrick', price: 2260},
+  {name: 'Catherine', price: 800},
 ];
 
 export const increamentRevenueData = [
-  {name: 'Page A', revenue: 200},
-  {name: 'Page B', revenue: 1200},
-  {name: 'Page C', revenue: 600},
-  {name: 'Page D', revenue: 1600},
-  {name: 'Page D', revenue: 1000},
+  {name: 'Ken', revenue: 200},
+  {name: 'Nephat', revenue: 1200},
+  {name: 'Angel', revenue: 600},
+  {name: 'Cynthia', revenue: 1600},
+  {name: 'Cynthia', revenue: 1000},
   {name: 'Page H', revenue: 2260},
   {name: 'Page K', revenue: 800},
 ];
 
 export const lineData = [
-  {name: 'Page A', price: 200},
-  {name: 'Page B', price: 1100},
-  {name: 'Page C', price: 800},
-  {name: 'Page D', price: 1700},
-  {name: 'Page D', price: 600},
-  {name: 'Page D', price: 1800},
-  {name: 'Page D', price: 600},
+  {name: 'Ken', price: 200},
+  {name: 'Nephat', price: 1100},
+  {name: 'Angel', price: 800},
+  {name: 'Cynthia', price: 1700},
+  {name: 'Joseph', price: 600},
+  {name: 'Derrick', price: 1800},
+  {name: 'Catherine', price: 600},
 ];
 
 export const lineData2 = [
-  {name: 'Page A', traffic: 200},
-  {name: 'Page B', traffic: 1100},
-  {name: 'Page C', traffic: 800},
-  {name: 'Page D', traffic: 1700},
-  {name: 'Page D', traffic: 600},
-  {name: 'Page D', traffic: 1800},
-  {name: 'Page D', traffic: 600},
+  {name: 'Ken', traffic: 200},
+  {name: 'Nephat', traffic: 1100},
+  {name: 'Angel', traffic: 800},
+  {name: 'Cynthia', traffic: 1700},
+  {name: 'Cynthia', traffic: 600},
+  {name: 'Cynthia', traffic: 1800},
+  {name: 'Cynthia', traffic: 600},
 ]
