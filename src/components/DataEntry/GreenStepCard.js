@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import {greenStepList} from "../../routes/main/Widgets/data"
+import {greenStepList} from "../../routes/main/DataEntry/data"
 import GreenStepItem from "./GreenStepItem";
 import Widget from "components/Widget/index";
 

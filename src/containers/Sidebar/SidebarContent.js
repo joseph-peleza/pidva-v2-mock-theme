@@ -17,7 +17,7 @@ import IntlMessages from "../../util/IntlMessages";
 import {connect} from "react-redux";
 
 const SubMenu = Menu.SubMenu;
-const MenuItemGroup = Menu.ItemGroup;
+// const MenuItemGroup = Menu.ItemGroup;
 
 
 class SidebarContent extends Component {
@@ -53,8 +53,9 @@ class SidebarContent extends Component {
               selectedKeys={[selectedKeys]}
               theme={themeType === THEME_TYPE_LITE ? 'lite' : 'dark'}
               mode="inline">
-
-              <MenuItemGroup key="main" className="gx-menu-group" title={<IntlMessages id="sidebar.main"/>}>
+              
+              {/* Home */}
+              <SubMenu key="main" className="gx-menu-group" title={<IntlMessages id="sidebar.main"/>}>
                 <SubMenu key="dashboard" className={this.getNavStyleSubMenuClass(navStyle)}
                          title={<span> <i className="icon icon-dasbhoard"/>
                          <IntlMessages id="sidebar.dashboard"/></span>}>
@@ -70,19 +71,134 @@ class SidebarContent extends Component {
                       <IntlMessages id="sidebar.dashboard.dashTwo"/>
                     </Link>
                   </Menu.Item>
-                  <Menu.Item key="main/dashboard/dashThree">
+                  {/* <Menu.Item key="main/dashboard/dashThree">
                     <Link to="/main/dashboard/dashThree">
                       <i className="icon icon-dashThree-dbrd"/>
                       <IntlMessages id="sidebar.dashboard.dashThree"/>
                     </Link>
-                  </Menu.Item>
+                  </Menu.Item> */}
                 </SubMenu>
 
-                <Menu.Item key="main/widgets">
+                <SubMenu key="dataDisplay" className={this.getNavStyleSubMenuClass(navStyle)} title={
+                  <span>
+                  <i className="icon icon-data-display"/>
+
+                    <IntlMessages id="sidebar.components.dataDisplay"/>
+
+              </span>}>
+                  <Menu.Item key="components/dataDisplay/avatar">
+                    <Link to="/components/dataDisplay/avatar">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.avatar"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/badge">
+                    <Link to="/components/dataDisplay/badge">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.badge"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/collapse">
+                    <Link to="/components/dataDisplay/collapse">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.collapse"/></Link>
+                  </Menu.Item>
+                  <SubMenu key="feedBack" className={this.getNavStyleSubMenuClass(navStyle)} title={
+                  <span>
+                  <i className="icon icon-feedback"/>
+                    <IntlMessages id="sidebar.components.feedBack"/>
+
+              </span>}>
+                  <Menu.Item key="components/feedBack/alert">
+                    <Link to="/components/feedBack/alert">
+                      <IntlMessages
+                        id="sidebar.feedBack.alert"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/feedBack/modal">
+                    <Link to="/components/feedBack/modal">
+                      <IntlMessages
+                        id="sidebar.feedBack.modal"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/feedBack/message">
+                    <Link to="/components/feedBack/message">
+                      <IntlMessages
+                        id="sidebar.feedBack.message"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/feedBack/notification">
+                    <Link to="/components/feedBack/notification">
+                      <IntlMessages
+                        id="sidebar.feedBack.notification"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/feedBack/progress">
+                    <Link to="/components/feedBack/progress">
+                      <IntlMessages
+                        id="sidebar.feedBack.progress"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/feedBack/popconfirm">
+                    <Link to="/components/feedBack/popconfirm">
+                      <IntlMessages id="sidebar.feedBack.popConfirm"/>
+                    </Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/feedBack/spin">
+                    <Link to="/components/feedBack/spin">
+                      <IntlMessages
+                        id="sidebar.feedBack.spin"/></Link>
+                  </Menu.Item>
+                </SubMenu>
+                    {/* <Menu.Item key="components/dataDisplay/carousel">
+                    <Link to="/components/dataDisplay/carousel">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.carousel"/></Link>
+                  </Menu.Item>
+                 <Menu.Item key="components/dataDisplay/card">
+                    <Link to="/components/dataDisplay/card">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.card"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/calendar">
+                    <Link to="/components/dataDisplay/calendar">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.calender"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/list">
+                    <Link to="/components/dataDisplay/list">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.list"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/popover">
+                    <Link to="/components/dataDisplay/popover">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.popover"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/tree">
+                    <Link to="/components/dataDisplay/tree">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.tree"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/tooltip">
+                    <Link to="/components/dataDisplay/tooltip">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.toolTips"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/timeline">
+                    <Link to="/components/dataDisplay/timeline">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.timeLine"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/tag">
+                    <Link to="/components/dataDisplay/tag">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.tag"/></Link>
+                  </Menu.Item>
+                  <Menu.Item key="components/dataDisplay/tabs">
+                    <Link to="/components/dataDisplay/tabs">
+                      <IntlMessages
+                        id="sidebar.dataDisplay.tabs"/></Link>
+                  </Menu.Item> */}
+                </SubMenu>
+                {/* <Menu.Item key="main/widgets">
                   <Link to="/main/widgets"><i className="icon icon-widgets"/>
                     <IntlMessages id="sidebar.widgets"/></Link>
-                </Menu.Item>
-
+                </Menu.Item> */}
+{/* 
                 <Menu.Item key="main/metrics">
                   <Link to="/main/metrics"><i className="icon icon-apps"/>
                     <IntlMessages id="sidebar.metrics"/></Link>
@@ -91,11 +207,12 @@ class SidebarContent extends Component {
                 <Menu.Item key="main/layouts">
                   <Link to="/main/layouts"><i className="icon icon-card"/>
                     <IntlMessages id="sidebar.layouts"/></Link>
-                </Menu.Item>
+                </Menu.Item> */}
 
-              </MenuItemGroup>
+              </SubMenu>
 
-              <MenuItemGroup key="in-built-apps" className="gx-menu-group"
+              {/* Management */}
+              <SubMenu key="in-built-apps" className="gx-menu-group"
                              title={<IntlMessages id="sidebar.inBuiltApp"/>}>
                 <Menu.Item key="in-built-apps/mail">
                   <Link to="/in-built-apps/mail"><i className="icon icon-email"/><IntlMessages
@@ -108,10 +225,10 @@ class SidebarContent extends Component {
                     id="sidebar.todoApp"/></Link>
                 </Menu.Item>
 
-                <Menu.Item key="in-built-apps/contacts">
+                {/* <Menu.Item key="in-built-apps/contacts">
                   <Link to="/in-built-apps/contacts"><i className="icon icon-contacts"/><IntlMessages
                     id="sidebar.contactsApp"/></Link>
-                </Menu.Item>
+                </Menu.Item> */}
 
                 <Menu.Item key="in-built-apps/chat">
                   <Link to="/in-built-apps/chat"><i
@@ -124,7 +241,7 @@ class SidebarContent extends Component {
                     <IntlMessages id="sidebar.notes"/></Link>
                 </Menu.Item>
 
-                <Menu.Item key="main/algolia">
+                {/* <Menu.Item key="main/algolia">
                   <Link to="/main/algolia"><i className="icon icon-shopping-cart "/>
                     <IntlMessages id="sidebar.algolia"/></Link>
                 </Menu.Item>
@@ -133,10 +250,11 @@ class SidebarContent extends Component {
                   <Link to="/in-built-apps/firebase-crud"><i
                     className="icon icon-icon"/><IntlMessages
                     id="sidebar.crud"/></Link>
-                </Menu.Item>
-              </MenuItemGroup>
+                </Menu.Item> */}
+              </SubMenu>
 
-              <MenuItemGroup key="social-apps" className="gx-menu-group" title={<IntlMessages id="sidebar.social"/>}>
+              {/* Payments */}
+              <SubMenu key="social-apps" className="gx-menu-group" title={<IntlMessages id="sidebar.social"/>}>
                 <Menu.Item key="social-apps/profile">
                   <Link to="/social-apps/profile">
                     <i className="icon icon-profile2"/>
@@ -150,9 +268,15 @@ class SidebarContent extends Component {
                     <IntlMessages id="sidebar.wall"/>
                   </Link>
                 </Menu.Item>
-              </MenuItemGroup>
 
-              <MenuItemGroup key="components" className="gx-menu-group" title={<IntlMessages id="sidebar.components"/>}>
+                <Menu.Item key="main/algolia">
+                  <Link to="/main/algolia"><i className="icon icon-shopping-cart "/>
+                    <IntlMessages id="sidebar.algolia"/></Link>
+                </Menu.Item>
+              </SubMenu>
+
+              {/* My Profile */}
+              <SubMenu key="components" className="gx-menu-group" title={<IntlMessages id="sidebar.components"/>}>
 
                 <SubMenu key="general" className={this.getNavStyleSubMenuClass(navStyle)} title={
                   <span>
@@ -299,122 +423,8 @@ class SidebarContent extends Component {
                   </Menu.Item>
                 </SubMenu>
 
-                <SubMenu key="dataDisplay" className={this.getNavStyleSubMenuClass(navStyle)} title={
-                  <span>
-                  <i className="icon icon-data-display"/>
+                {/* 
 
-                    <IntlMessages id="sidebar.components.dataDisplay"/>
-
-              </span>}>
-                  <Menu.Item key="components/dataDisplay/avatar">
-                    <Link to="/components/dataDisplay/avatar">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.avatar"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/badge">
-                    <Link to="/components/dataDisplay/badge">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.badge"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/collapse">
-                    <Link to="/components/dataDisplay/collapse">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.collapse"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/carousel">
-                    <Link to="/components/dataDisplay/carousel">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.carousel"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/card">
-                    <Link to="/components/dataDisplay/card">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.card"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/calendar">
-                    <Link to="/components/dataDisplay/calendar">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.calender"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/list">
-                    <Link to="/components/dataDisplay/list">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.list"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/popover">
-                    <Link to="/components/dataDisplay/popover">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.popover"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/tree">
-                    <Link to="/components/dataDisplay/tree">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.tree"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/tooltip">
-                    <Link to="/components/dataDisplay/tooltip">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.toolTips"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/timeline">
-                    <Link to="/components/dataDisplay/timeline">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.timeLine"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/tag">
-                    <Link to="/components/dataDisplay/tag">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.tag"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/dataDisplay/tabs">
-                    <Link to="/components/dataDisplay/tabs">
-                      <IntlMessages
-                        id="sidebar.dataDisplay.tabs"/></Link>
-                  </Menu.Item>
-                </SubMenu>
-
-                <SubMenu key="feedBack" className={this.getNavStyleSubMenuClass(navStyle)} title={
-                  <span>
-                  <i className="icon icon-feedback"/>
-                    <IntlMessages id="sidebar.components.feedBack"/>
-
-              </span>}>
-                  <Menu.Item key="components/feedBack/alert">
-                    <Link to="/components/feedBack/alert">
-                      <IntlMessages
-                        id="sidebar.feedBack.alert"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/feedBack/modal">
-                    <Link to="/components/feedBack/modal">
-                      <IntlMessages
-                        id="sidebar.feedBack.modal"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/feedBack/message">
-                    <Link to="/components/feedBack/message">
-                      <IntlMessages
-                        id="sidebar.feedBack.message"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/feedBack/notification">
-                    <Link to="/components/feedBack/notification">
-                      <IntlMessages
-                        id="sidebar.feedBack.notification"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/feedBack/progress">
-                    <Link to="/components/feedBack/progress">
-                      <IntlMessages
-                        id="sidebar.feedBack.progress"/></Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/feedBack/popconfirm">
-                    <Link to="/components/feedBack/popconfirm">
-                      <IntlMessages id="sidebar.feedBack.popConfirm"/>
-                    </Link>
-                  </Menu.Item>
-                  <Menu.Item key="components/feedBack/spin">
-                    <Link to="/components/feedBack/spin">
-                      <IntlMessages
-                        id="sidebar.feedBack.spin"/></Link>
-                  </Menu.Item>
-                </SubMenu>
 
                 <SubMenu key="others" className={this.getNavStyleSubMenuClass(navStyle)} title={
                   <span>
@@ -457,11 +467,12 @@ class SidebarContent extends Component {
                       <IntlMessages
                         id="sidebar.view.dataTable"/></Link>
                   </Menu.Item>
-                </SubMenu>
+                </SubMenu> */}
 
-              </MenuItemGroup>
+              </SubMenu>
 
-              <MenuItemGroup key="extraComponents" className="gx-menu-group"
+              {/* Data Files Manager */}
+              <SubMenu key="extraComponents" className="gx-menu-group"
                              title={<IntlMessages id="sidebar.extraComponents"/>}>
 
                 <SubMenu key="editor" className={this.getNavStyleSubMenuClass(navStyle)}
@@ -514,7 +525,7 @@ class SidebarContent extends Component {
                       id="sidebar.extensions.notification"/></Link>
                 </Menu.Item>
 
-                <SubMenu key="time-line" className={this.getNavStyleSubMenuClass(navStyle)}
+                {/* <SubMenu key="time-line" className={this.getNavStyleSubMenuClass(navStyle)}
                          title={<span><i className="icon icon-timeline"/><IntlMessages
                            id="sidebar.timeLine"/></span>}>
                   <Menu.Item key="extra-components/time-line/default">
@@ -538,11 +549,12 @@ class SidebarContent extends Component {
                   <Link to="/extra-components/shuffle"><i className="icon icon-shuffle"/>
                     <IntlMessages
                       id="sidebar.extensions.shuffle"/></Link>
-                </Menu.Item>
+                </Menu.Item> */}
 
-              </MenuItemGroup>
-
-              <MenuItemGroup key="extensions" className="gx-menu-group" title={<IntlMessages id="sidebar.extensions"/>}>
+              </SubMenu>
+              
+              {/* Peleza Searches */}
+              <SubMenu key="extensions" className="gx-menu-group" title={<IntlMessages id="sidebar.extensions"/>}>
 
                 <SubMenu key="map" className={this.getNavStyleSubMenuClass(navStyle)}
                          title={<span> <i className="icon icon-extensions"/>
@@ -812,9 +824,16 @@ class SidebarContent extends Component {
                   </Menu.Item>
                 </SubMenu>
 
-              </MenuItemGroup>
+                <Menu.Item key="extra-components/shuffle">
+                  <Link to="/extra-components/shuffle"><i className="icon icon-shuffle"/>
+                    <IntlMessages
+                      id="sidebar.extensions.shuffle"/></Link>
+                </Menu.Item>
 
-              <MenuItemGroup key="custom-views" className="gx-menu-group"
+              </SubMenu>
+
+              {/* Module Configuration */}
+              <SubMenu key="custom-views" className="gx-menu-group"
                              title={<IntlMessages id="sidebar.customViews"/>}>
                 <SubMenu key="user-auth" className={this.getNavStyleSubMenuClass(navStyle)}
                          title={<span><i className="icon icon-auth-screen"/><IntlMessages
@@ -918,9 +937,10 @@ class SidebarContent extends Component {
                   </Menu.Item>
                 </SubMenu>
 
-              </MenuItemGroup>
-
-              <MenuItemGroup key="documents" className="gx-menu-group" title={<IntlMessages id="sidebar.documents"/>}>
+              </SubMenu>
+              
+              {/* Peleza Clients */}
+              <SubMenu key="documents" className="gx-menu-group" title={<IntlMessages id="sidebar.documents"/>}>
 
                 <Menu.Item key="documents/changelog">
                   <Link to="/documents/changelog">
@@ -936,7 +956,7 @@ class SidebarContent extends Component {
                   </Link>
                 </Menu.Item>
 
-              </MenuItemGroup>
+              </SubMenu>
 
             </Menu>
           </CustomScrollbars>
