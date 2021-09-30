@@ -1,23 +1,58 @@
 import React from "react";
 import {Table} from "antd";
 import Widget from "components/Widget/index";
+import {Button } from "antd";
 
 const columns = [
   {
-    title: 'Account Holder Name',
-    dataIndex: 'image',
+    title: 'Ref',
+    dataIndex: 'dateRequested',
+    render: (text, record) => {
+      return <span className="gx-text-grey">{record.ref}</span>
+    },
+
+  },
+  {
+    title: 'Candidate Name',
+    dataIndex: 'candidate',
     render: (text, record) => {
       return <div className="gx-flex-row gx-align-items-center">
-        <img className="gx-rounded-circle gx-size-30 gx-mr-2" src={text} alt=""/>
-        <p className="gx-mb-0">{record.name}</p>
+        {/* <img className="gx-rounded-circle gx-size-30 gx-mr-2" src={text} alt=""/> */}
+        <p className="gx-mb-0">{record.candidate}</p>
       </div>
     },
   },
   {
-    title: 'Request Created',
-    dataIndex: 'transfer',
+    title: 'Client Company',
+    dataIndex: 'dateRequested',
     render: (text, record) => {
-      return <span className="gx-text-grey">{record.transfer}</span>
+      return <span className="gx-mb-0">{record.client}</span>
+    },
+
+  },
+  {
+    title: 'Requested By',
+    dataIndex: 'image',
+    render: (text, record) => {
+      return <div className="gx-flex-row gx-align-items-center">
+        <img className="gx-rounded-circle gx-size-30 gx-mr-2" src={text} alt=""/>
+        <p className="gx-mb-0">{record.requestBy}</p>
+      </div>
+    },
+  },
+  {
+    title: 'Requested Date',
+    dataIndex: 'dateRequested',
+    render: (text, record) => {
+      return <span className="gx-text-grey">{record.dateRequested}</span>
+    },
+
+  },
+  {
+    title: 'Package',
+    dataIndex: 'dateRequested',
+    render: (text, record) => {
+      return <span className="gx-mb-0">{record.package}</span>
     },
 
   },
@@ -35,31 +70,47 @@ const columns = [
 const data = [
   {
     key: '1',
-    name: 'Jeniffer L.',
-    transfer: '2 hrs. ago',
-    image: 'https://via.placeholder.com/150x150',
-    status: 'Verify'
+    ref: 'RAK90J',
+    candidate: 'Annabel Angwenyi.',
+    client: 'Kazi App',
+    requestBy: 'Joy',
+    dateRequested: '30 Sep 2021',
+    image: 'https://wieldy.g-axon.work/assets/images/avatar/a5.png',
+    package: 'Standard',
+    status: 'Assign Person'
   },
   {
     key: '2',
-    name: 'Jim Green',
-    transfer: '17 days ago',
-    image: 'https://via.placeholder.com/150x150',
-    status: 'Verify'
+    ref: 'REL0A9',
+    candidate: 'Ghururaj Bhat',
+    client: 'EABL',
+    requestBy: "L'Oreal",
+    dateRequested: '17 Sep 2021',
+    image: 'https://wieldy.g-axon.work/assets/images/avatar/a6.png',
+    package: 'Experienced',
+    status: 'Assign Person'
   },
   {
     key: '3',
-    name: 'Joe Black',
-    transfer: '1 month ago',
-    image: 'https://via.placeholder.com/150x150',
-    status: 'Verify'
+    ref: 'R5GA6F',
+    candidate: 'Victoria Onsare',
+    client: 'Twiga Foods Ltd',
+    requestBy: 'Angel Matende',
+    dateRequested: '10 Aug 2021',
+    image: 'https://wieldy.g-axon.work/assets/images/avatar/a7.png',
+    package: 'Experienced',
+    status: 'Assign Person'
   },
   {
     key: '4',
-    name: 'Mila Alba',
-    transfer: '1 month ago',
-    image: 'https://via.placeholder.com/150x150',
-    status: 'Verify'
+    ref: '	RAGJ6A',
+    candidate: 'Chris Wekesa',
+    client: 'Stanbic Bank',
+    requestBy: 'Nephat',
+    dateRequested: '28 July 2021',
+    image: 'https://wieldy.g-axon.work/assets/images/avatar/domnic-harris.png',
+    package: 'Experienced',
+    status: 'Assign Person'
   }
 ];
 
@@ -68,17 +119,18 @@ const SendMoney = () => {
     <Widget
       title={
         <h2 className="h4 gx-text-capitalize gx-mb-0">
-          Add Verification For</h2>
+          New Requests</h2>
       } extra={
-      <p className="gx-text-primary gx-mb-0 gx-pointer gx-d-none gx-d-sm-block">
-        <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/> Add New Client</p>
+      // <p className="gx-text-primary gx-mb-0 gx-pointer gx-d-none gx-d-sm-block">
+      //   <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/> Add New Request</p>
+      <Button type="default">View All Requests</Button>
     }>
       <div className="gx-table-responsive">
-        <Table className="gx-table-no-bordered" columns={columns} dataSource={data} pagination={false}
-               size="small"/>
+        <Table className="ColSpan and RowSpan Table" columns={columns} dataSource={data} pagination={true}
+               size="medium" bordered/>
       </div>
       <p className="gx-text-primary gx-mb-0 gx-pointer gx-d-block gx-d-sm-none gx-mb-0 gx-mt-3">
-        <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/> Add New Account</p>
+        <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/> Add New Request</p>
     </Widget>
   );
 };

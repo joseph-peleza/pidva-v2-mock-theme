@@ -6,7 +6,7 @@ import LineIndicator from "./LineIndicator";
 const Portfolio = () => {
   return (
     <Widget>
-      <h2 className="h4 gx-mb-3">Total Requests This Month</h2>
+      <h2 className="h4 gx-mb-3">Best Performers</h2>
       <Row>
         <Col lg={12} md={12} sm={12} xs={24}>
 
