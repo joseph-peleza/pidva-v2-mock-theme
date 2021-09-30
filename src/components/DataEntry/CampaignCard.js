@@ -5,13 +5,13 @@ import {Col, Row} from "antd";
 import Widget from "components/Widget/index";
 
 const data = [
-  {name: 'Page A', uv: 500, price: 600, sv: 400},
-  {name: 'Page B', uv: 700, price: 800, sv: 700},
-  {name: 'Page C', uv: 900, price: 1400, sv: 700},
-  {name: 'Page D', uv: 1600, price: 1800, sv: 1800},
-  {name: 'Page G', uv: 1200, price: 1000, sv: 1800},
-  {name: 'Page F', uv: 800, price: 1000, sv: 1200},
-  {name: 'Page G', uv: 500, price: 300, sv: 1500},
+  {name: 'Ken', uv: 500, price: 600, sv: 400},
+  {name: 'Nephat', uv: 700, price: 800, sv: 700},
+  {name: 'Angel', uv: 900, price: 1400, sv: 700},
+  {name: 'Cynthia', uv: 1600, price: 1800, sv: 1800},
+  {name: 'Catherine', uv: 1200, price: 1000, sv: 1800},
+  {name: 'Derrick', uv: 800, price: 1000, sv: 1200},
+  {name: 'Catherine', uv: 500, price: 300, sv: 1500},
   {name: 'Page H', uv: 400, price: 200, sv: 600},
   {name: 'Page I', uv: 900, price: 800, sv: 1400},
 ];

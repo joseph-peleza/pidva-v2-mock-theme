@@ -5,11 +5,11 @@ import {Area, AreaChart, ResponsiveContainer} from "recharts";
 import Widget from "components/Widget/index";
 
 const data = [
-  {name: 'Page A', price: 200},
-  {name: 'Page B', price: 800},
-  {name: 'Page C', price: 600},
-  {name: 'Page D', price: 2200},
-  {name: 'Page D', price: 1000},
+  {name: 'Ken', price: 200},
+  {name: 'Nephat', price: 800},
+  {name: 'Angel', price: 600},
+  {name: 'Cynthia', price: 2200},
+  {name: 'Cynthia', price: 1000},
   {name: 'Page H', price: 2960},
   {name: 'Page K', price: 1960},
 ];

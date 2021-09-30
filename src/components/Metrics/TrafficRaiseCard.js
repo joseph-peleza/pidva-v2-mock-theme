@@ -5,13 +5,13 @@ import {Col, Row} from "antd";
 import Widget from "components/Widget/index";
 
 const data = [
-  {name: 'Page A', traffic: 200},
-  {name: 'Page B', traffic: 1100},
-  {name: 'Page C', traffic: 800},
-  {name: 'Page D', traffic: 1700},
-  {name: 'Page D', traffic: 600},
-  {name: 'Page D', traffic: 1800},
-  {name: 'Page D', traffic: 600},
+  {name: 'Ken', traffic: 200},
+  {name: 'Nephat', traffic: 1100},
+  {name: 'Angel', traffic: 800},
+  {name: 'Cynthia', traffic: 1700},
+  {name: 'Cynthia', traffic: 600},
+  {name: 'Cynthia', traffic: 1800},
+  {name: 'Cynthia', traffic: 600},
 ];
 
 const TrafficRaiseCard = () => {

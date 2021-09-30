@@ -5,18 +5,18 @@ import {Bar, BarChart, ResponsiveContainer, Tooltip} from "recharts";
 import Widget from "components/Widget/index";
 
 const data = [
-  {name: 'Page A', queries: 400},
-  {name: 'Page B', queries: 600},
-  {name: 'Page C', queries: 800},
-  {name: 'Page D', queries: 1200},
-  {name: 'Page E', queries: 800},
-  {name: 'Page F', queries: 600},
-  {name: 'Page G', queries: 300},
+  {name: 'Ken', queries: 400},
+  {name: 'Nephat', queries: 600},
+  {name: 'Angel', queries: 800},
+  {name: 'Cynthia', queries: 1200},
+  {name: 'Joseph', queries: 800},
+  {name: 'Derrick', queries: 600},
+  {name: 'Catherine', queries: 300},
   {name: 'Page H', queries: 900},
-  {name: 'Page A', queries: 400},
-  {name: 'Page B', queries: 600},
-  {name: 'Page C', queries: 800},
-  {name: 'Page D', queries: 1200},
+  {name: 'Ken', queries: 400},
+  {name: 'Nephat', queries: 600},
+  {name: 'Angel', queries: 800},
+  {name: 'Cynthia', queries: 1200},
 ];
 
 const QueriesCard = () => {

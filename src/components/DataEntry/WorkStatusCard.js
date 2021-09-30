@@ -5,10 +5,10 @@ import {Area, AreaChart, ResponsiveContainer, Tooltip} from "recharts";
 import Widget from "components/Widget/index";
 
 const data = [
-  {name: 'Page A', lastWeek: 1900, thisWeek: 3200},
-  {name: 'Page B', lastWeek: 1300, thisWeek: 4000},
-  {name: 'Page C', lastWeek: 1850, thisWeek: 2500},
-  {name: 'Page D', lastWeek: 1680, thisWeek: 3000},
+  {name: 'Ken', lastWeek: 1900, thisWeek: 3200},
+  {name: 'Nephat', lastWeek: 1300, thisWeek: 4000},
+  {name: 'Angel', lastWeek: 1850, thisWeek: 2500},
+  {name: 'Cynthia', lastWeek: 1680, thisWeek: 3000},
   {name: 'Page H', lastWeek: 3900, thisWeek: 2560},
   {name: 'Page I', lastWeek: 1400, thisWeek: 2700},
   {name: 'Page J', lastWeek: 2200, thisWeek: 2000},
