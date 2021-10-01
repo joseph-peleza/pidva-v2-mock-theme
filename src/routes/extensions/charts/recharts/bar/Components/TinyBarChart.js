@@ -13,8 +13,8 @@ const TinyBarChart = () => (
       <CartesianGrid strokeDasharray="3 3"/>
       <Tooltip/>
       <Legend/>
-      <Bar dataKey="price" fill="#003366"/>
-      <Bar dataKey="uv" fill="#FE9E15"/>
+      <Bar dataKey="withinTAT" fill="#003366"/>
+      <Bar dataKey="pastTAT" fill="#FE9E15"/>
     </BarChart>
   </ResponsiveContainer>
 );

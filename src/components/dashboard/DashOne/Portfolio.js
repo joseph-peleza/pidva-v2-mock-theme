@@ -11,7 +11,7 @@ const Portfolio = () => {
         <Col lg={12} md={12} sm={12} xs={24}>
 
           <div className="ant-row-flex">
-            <h2 className="gx-mr-2 gx-mb-0 gx-fs-xxxl gx-font-weight-medium">Ken</h2>
+            <h2 className="gx-mr-2 gx-mb-0 gx-fs-xxxl gx-font-weight-medium">Angel</h2>
             <h4 className="gx-pt-2 gx-chart-up">80% <i className="icon icon-menu-up gx-fs-sm"/></h4>
           </div>
           <p className="gx-text-grey">Performance Summary</p>

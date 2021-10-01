@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Row } from "antd";
+import { Alert, Card, Col, Row } from "antd";
 import TinyBarChart from "routes/extensions/charts/recharts/bar/Components/TinyBarChart";
 
 import { Area, AreaChart, Line, LineChart, ResponsiveContainer, Tooltip } from "recharts";
@@ -25,128 +25,157 @@ import Overview from "components/dashboard/DashTwo/Overview";
 import IconWithTextCard from "components/dashboard/DashTwo/IconWithTextCard";
 
 
-const DashOne = () => {
-  return (
-    <Auxiliary>
-      <Row>
-        <Col xl={6} lg={12} md={12} sm={12} xs={24}>
-          <ChartCard prize="500" title="23" icon="bitcoin"
-            children={<ResponsiveContainer width="100%" height={75}>
-              <AreaChart data={increamentData}
-                margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
-                <Tooltip />
-                <defs>
-                  <linearGradient id="color3" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="5%" stopColor="#163469" stopOpacity={0.9} />
-                    <stop offset="95%" stopColor="#FE9E15" stopOpacity={0.9} />
-                  </linearGradient>
-                </defs>
-                <Area dataKey='price' strokeWidth={0} stackId="2" stroke='#4D95F3' fill="url(#color3)"
-                  fillOpacity={1} />
-              </AreaChart>
-            </ResponsiveContainer>}
-            styleName="up" desc="New Requests" />
-        </Col>
-        <Col xl={6} lg={12} md={12} sm={12} xs={24}>
-          <ChartCard prize="180" title="07" icon="etherium"
-            children={<ResponsiveContainer width="100%" height={75}>
-              <AreaChart data={increamentData}
-                margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
-                <Tooltip />
-                <defs>
-                  <linearGradient id="color4" x1="0" y1="0" x2="1" y2="0">
-                    <stop offset="5%" stopColor="#4ECDE4" stopOpacity={0.9} />
-                    <stop offset="95%" stopColor="#06BB8A" stopOpacity={0.9} />
-                  </linearGradient>
-                </defs>
-                <Area dataKey='price' type='monotone' strokeWidth={0} stackId="2" stroke='#4D95F3'
-                  fill="url(#color4)"
-                  fillOpacity={1} />
-              </AreaChart>
-            </ResponsiveContainer>}
-            styleName="up" desc="Ongoing Tasks" />
-        </Col>
-        <Col xl={6} lg={12} md={12} sm={12} xs={24}>
-          <ChartCard prize="120" title="08" icon="ripple"
-            children={<ResponsiveContainer width="100%" height={75}>
-              <AreaChart data={increamentData}
-                margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
-                <Tooltip />
-                <defs>
-                  <linearGradient id="color5" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="5%" stopColor="#e81a24" stopOpacity={0.8} />
-                    <stop offset="95%" stopColor="#FEEADA" stopOpacity={0.8} />
-                  </linearGradient>
-                </defs>
-                <Area dataKey='price' strokeWidth={0} stackId="2" stroke='#FEEADA' fill="url(#color5)"
-                  fillOpacity={1} />
-              </AreaChart>
-            </ResponsiveContainer>}
-            styleName="up" desc="Awaiting Approval" />
-        </Col>
-        <Col xl={6} lg={12} md={12} sm={12} xs={24}>
-          <ChartCard prize="200" title="47" icon="litcoin"
-            children={<ResponsiveContainer width="100%" height={75}>
+class DashOne extends React.Component {
+  state = {
+    visiable: true,
+  };
+  handleClose = () => {
+    this.setState({ visiable: false });
+  };
 
-              <LineChart data={lineData}
-                margin={{ top: 5, right: 5, left: 5, bottom: 5 }}>
-                <Tooltip />
-                <Line dataKey="price" stroke="#038FDE" dot={{ stroke: '#FEA931', strokeWidth: 2 }} />
-              </LineChart>
-            </ResponsiveContainer>}
-            styleName="up" desc="Completed Requests" />
-        </Col>
-        <Col xl={24} lg={24} md={12} sm={24} xs={24}>
-          <SendMoney />
-        </Col>
+  render() {
+    return (
+      <Auxiliary>
+        <div className="gx-wel-ema gx-pt-xl-2">
+          <h1 className="gx-mb-3">Welcome, Joseph!</h1>
+          {
+            this.state.visiable ? (
+              <Alert
+                message=" Welcome to Peleza Admin (v2.0.0) , your access and activity is strictly monitored. Kindly read the >>terms and conditions<< of access."
+                type="success"
+                closable
+                afterClose={this.handleClose}
+              />
+            ) : null
+          }
+          <br />
+        </div>
+        <Row>
+          <Col xl={6} lg={12} md={12} sm={12} xs={24}>
+            <ChartCard prize="500" title="23" icon="bitcoin"
+              children={<ResponsiveContainer width="100%" height={75}>
+                <AreaChart data={increamentData}
+                  margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
+                  <Tooltip />
+                  <defs>
+                    <linearGradient id="color3" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="5%" stopColor="#163469" stopOpacity={0.9} />
+                      <stop offset="95%" stopColor="#FE9E15" stopOpacity={0.9} />
+                    </linearGradient>
+                  </defs>
+                  <Area dataKey='price' strokeWidth={0} stackId="2" stroke='#4D95F3' fill="url(#color3)"
+                    fillOpacity={1} />
+                </AreaChart>
+              </ResponsiveContainer>}
+              styleName="up" desc="New Requests" />
+          </Col>
+          <Col xl={6} lg={12} md={12} sm={12} xs={24}>
+            <ChartCard prize="180" title="07" icon="etherium"
+              children={<ResponsiveContainer width="100%" height={75}>
+                <AreaChart data={increamentData}
+                  margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
+                  <Tooltip />
+                  <defs>
+                    <linearGradient id="color4" x1="0" y1="0" x2="1" y2="0">
+                      <stop offset="5%" stopColor="#4ECDE4" stopOpacity={0.9} />
+                      <stop offset="95%" stopColor="#06BB8A" stopOpacity={0.9} />
+                    </linearGradient>
+                  </defs>
+                  <Area dataKey='price' type='monotone' strokeWidth={0} stackId="2" stroke='#4D95F3'
+                    fill="url(#color4)"
+                    fillOpacity={1} />
+                </AreaChart>
+              </ResponsiveContainer>}
+              styleName="up" desc="Ongoing Tasks" />
+          </Col>
+          <Col xl={6} lg={12} md={12} sm={12} xs={24}>
+            <ChartCard prize="120" title="08" icon="ripple"
+              children={<ResponsiveContainer width="100%" height={75}>
+                <AreaChart data={increamentData}
+                  margin={{ top: 0, right: 0, left: 0, bottom: 0 }}>
+                  <Tooltip />
+                  <defs>
+                    <linearGradient id="color5" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="5%" stopColor="#e81a24" stopOpacity={0.8} />
+                      <stop offset="95%" stopColor="#FEEADA" stopOpacity={0.8} />
+                    </linearGradient>
+                  </defs>
+                  <Area dataKey='price' strokeWidth={0} stackId="2" stroke='#FEEADA' fill="url(#color5)"
+                    fillOpacity={1} />
+                </AreaChart>
+              </ResponsiveContainer>}
+              styleName="up" desc="Awaiting Approval" />
+          </Col>
+          <Col xl={6} lg={12} md={12} sm={12} xs={24}>
+            <ChartCard prize="200" title="47" icon="litcoin"
+              children={<ResponsiveContainer width="100%" height={75}>
 
-        <Col xl={24} lg={24} md={24} sm={24} xs={24} className="gx-order-sm-1">
-          <Row>
-            <Col xl={16} lg={16} md={16} sm={24} xs={24}>
-              <TicketList />
-            </Col>
-            <Col xl={8} lg={8} md={8} sm={24} xs={24}>
-              <Portfolio />
-            </Col>
-            {/* <Col xl={24} lg={24} md={24} sm={24} xs={24}>
-              <TaskList taskList={taskList}/>
-            </Col> */}
+                <LineChart data={lineData}
+                  margin={{ top: 5, right: 5, left: 5, bottom: 5 }}>
+                  <Tooltip />
+                  <Line dataKey="price" stroke="#038FDE" dot={{ stroke: '#FEA931', strokeWidth: 2 }} />
+                </LineChart>
+              </ResponsiveContainer>}
+              styleName="up" desc="Completed Requests" />
+          </Col>
+          <Col xl={24} lg={24} md={12} sm={24} xs={24}>
+            <SendMoney />
+          </Col>
 
-            <Col lg={24} md={24} sm={24} xs={24}>
-              <h2 className="h4 gx-text-capitalize gx-mb-0" style={{ padding: "10px" }}>Analytics</h2>
-            </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="cyan" icon="diamond" title="1700" subTitle="New Requests" />
-            </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="orange" icon="tasks" title="800" subTitle="Ongoing Tasks" />
-            </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="teal" icon="team" title="160" subTitle="Awaiting Approval" />
-            </Col>
-            <Col xl={6} lg={6} md={6} sm={12} xs={12}>
-              <IconWithTextCard cardColor="red" icon="files" title="1000" subTitle="Approved Reports" />
-            </Col>
-          </Row>
-        </Col>
+          <Col xl={24} lg={24} md={24} sm={24} xs={24} className="gx-order-sm-1">
+            <Row>
+              <Col xl={16} lg={16} md={16} sm={24} xs={24}>
+                <TicketList />
+              </Col>
+              <Col xl={8} lg={8} md={8} sm={24} xs={24}>
+                <Portfolio />
+              </Col>
+              {/* <Col xl={24} lg={24} md={24} sm={24} xs={24}>
+                <TaskList taskList={taskList}/>
+              </Col> */}
 
-        <Col lg={24} md={24} sm={24} xs={24}>
-          <h2 className="h4 gx-text-capitalize gx-mb-0" style={{ padding: "10px" }}>Productivity</h2>
-        </Col>
-        <Col lg={12} md={12} sm={24} xs={24}>
-          <Card className="gx-card" title="Final Reports TAT">
-            <TinyBarChart />
-          </Card>
-        </Col>
-        <Col lg={12} md={12} sm={24} xs={24}>
-          <Card className="gx-card" title="In progres Reports TAT">
-            <TinyBarChart />
-          </Card>
-        </Col>
-      </Row>
+              <Col lg={24} md={24} sm={24} xs={24}>
+                <h2 className="h4 gx-text-capitalize gx-mb-0" style={{ padding: "10px" }}>Analytics</h2>
+              </Col>
+              <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+                <IconWithTextCard cardColor="cyan" icon="diamond" title="1700" subTitle="Total Verified" />
+              </Col>
+              <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+                <IconWithTextCard cardColor="orange" icon="tasks" title="800" subTitle="Candidates" />
+              </Col>
+              <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+                <IconWithTextCard cardColor="teal" icon="team" title="160" subTitle="Inconsistencies" />
+              </Col>
+              <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+                <IconWithTextCard cardColor="red" icon="files" title="1000" subTitle="Final" />
+              </Col>
+              <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+                <IconWithTextCard cardColor="blue" icon="files" title="1000" subTitle="Clients Served" />
+              </Col>
+              <Col xl={6} lg={6} md={6} sm={12} xs={12}>
+                <IconWithTextCard cardColor="green" icon="files" title="800" subTitle="In Progress" />
+              </Col>
+            </Row>
+          </Col>
 
-    </Auxiliary>
-  );
+          <Col lg={24} md={24} sm={24} xs={24}>
+            <h2 className="h4 gx-text-capitalize gx-mb-0" style={{ padding: "10px" }}>Productivity</h2>
+          </Col>
+          <Col lg={12} md={24} sm={24} xs={24}>
+            <Card className="gx-card" title="Final Reports TAT">
+              <TinyBarChart />
+            </Card>
+          </Col>
+          <Col lg={12} md={24} sm={24} xs={24}>
+            <Card className="gx-card" title="In progres Reports TAT">
+              <TinyBarChart />
+            </Card>
+          </Col>
+        </Row>
+
+      </Auxiliary>
+    );
+  }
 };
 
 export default DashOne;
