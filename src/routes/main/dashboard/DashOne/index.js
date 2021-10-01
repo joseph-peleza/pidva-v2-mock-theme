@@ -106,11 +106,15 @@ const DashOne = () => {
               <TicketList />
             </Col>
             <Col xl={8} lg={8} md={8} sm={24} xs={24}>
-              <TaskByStatus />
+              <Portfolio />
             </Col>
             {/* <Col xl={24} lg={24} md={24} sm={24} xs={24}>
               <TaskList taskList={taskList}/>
             </Col> */}
+
+            <Col lg={24} md={24} sm={24} xs={24}>
+              <h2 className="h4 gx-text-capitalize gx-mb-0" style={{ padding: "10px" }}>Analytics</h2>
+            </Col>
             <Col xl={6} lg={6} md={6} sm={12} xs={12}>
               <IconWithTextCard cardColor="cyan" icon="diamond" title="1700" subTitle="New Requests" />
             </Col>
@@ -127,7 +131,7 @@ const DashOne = () => {
         </Col>
 
         <Col lg={24} md={24} sm={24} xs={24}>
-          <h2 className="h4 gx-text-capitalize gx-mb-0" style={{padding:"10px"}}>Productivity</h2>
+          <h2 className="h4 gx-text-capitalize gx-mb-0" style={{ padding: "10px" }}>Productivity</h2>
         </Col>
         <Col lg={12} md={12} sm={24} xs={24}>
           <Card className="gx-card" title="Final Reports TAT">

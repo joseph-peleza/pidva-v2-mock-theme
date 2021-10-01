@@ -10,10 +10,10 @@ class TicketList extends React.Component {
     return (
       <Widget title={
         <h2 className="h4 gx-text-capitalize gx-mb-0">
-          Leave Application</h2>
+          Recent Activity</h2>
       } styleName="gx-card-ticketlist"
               extra={<h5 className="gx-text-primary gx-mb-0 gx-pointer gx-d-none gx-d-sm-block">
-                See all tickets <i
+                See all activities <i
                 className="icon icon-long-arrow-right gx-fs-xxl gx-ml-2 gx-d-inline-flex gx-vertical-align-middle"/>
               </h5>}>
         {

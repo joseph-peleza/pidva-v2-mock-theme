@@ -11,33 +11,33 @@ const Portfolio = () => {
         <Col lg={12} md={12} sm={12} xs={24}>
 
           <div className="ant-row-flex">
-            <h2 className="gx-mr-2 gx-mb-0 gx-fs-xxxl gx-font-weight-medium">2500</h2>
-            <h4 className="gx-pt-2 gx-chart-up">64% <i className="icon icon-menu-up gx-fs-sm"/></h4>
+            <h2 className="gx-mr-2 gx-mb-0 gx-fs-xxxl gx-font-weight-medium">Ken</h2>
+            <h4 className="gx-pt-2 gx-chart-up">80% <i className="icon icon-menu-up gx-fs-sm"/></h4>
           </div>
-          <p className="gx-text-grey">Overall summary</p>
+          <p className="gx-text-grey">Performance Summary</p>
           <div className="ant-row-flex gx-mb-3 gx-mb-md-2">
             <Button className="gx-mr-2" type="primary">View All</Button>
             <Button className="gx-btn-cyan">Print List</Button>
           </div>
 
           <p className="gx-text-primary gx-pointer gx-d-none gx-d-sm-block gx-mb-1">
-            <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/>Verify New Request</p>
+            <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/>Add Rating</p>
         </Col>
         <Col lg={12} md={12} sm={12} xs={24}>
           <div className="gx-site-dash">
-            <h5 className="gx-mb-3">Request Distribution</h5>
+            <h5 className="gx-mb-3">Performance Distribution</h5>
             <ul className="gx-line-indicator gx-fs-sm gx-pb-1 gx-pb-sm-0">
               <li>
-                <LineIndicator width="78%" title="Ed Checks" title2="8.74" color="primary" value="78%"/>
+                <LineIndicator width="78%" title="Finals Within TAT" color="primary" value="78%"/>
               </li>
               <li>
-                <LineIndicator width="38%" title="Id Checks" title2="1.23" color="pink" value="48%"/>
+                <LineIndicator width="38%" title="Finals Without TAT" color="pink" value="48%"/>
+              </li> 
+              <li>
+                <LineIndicator width="24%" title="On progress" color="orange" value="34%"/>
               </li>
               <li>
-                <LineIndicator width="24%" title="Ed Requests" title2="0.71" color="orange" value="34%"/>
-              </li>
-              <li>
-                <LineIndicator width="60%" title="Psmt Requests" title2="0.81" color="yellow" value="70%"/>
+                <LineIndicator width="60%" title="Completed Reports" color="yellow" value="70%"/>
               </li>
             </ul>
             <p className="gx-text-primary gx-pointer gx-d-block gx-d-sm-none gx-mb-0 gx-mt-3">

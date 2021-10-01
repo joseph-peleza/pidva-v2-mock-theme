@@ -133,20 +133,20 @@ export const ticketList = [
   {
     id: 1,
     avatar: 'https://via.placeholder.com/150x150',
-    title: 'Need a quick support on setting',
-    description: [<span className="gx-link" key={13}>Joy Parish</span>, "  created ticket 15 mins ago"],
+    title: 'Nephat applied for annual leave',
+    description: [<span className="gx-link" key={13}>Leave</span>, "  approved 2 mins ago"],
     status: 2
   }, {
     id: 2,
     avatar: 'https://via.placeholder.com/150x150',
-    title: 'Pre-sale query about the product',
-    description: [<span key={14} className="gx-link">You</span>, " replied 2 days ago"],
+    title: "Angel Reviewed a report for EABL",
+    description: [<span key={14} className="gx-link">Reviewed</span>, "15 mins ago"],
     status: 1
   }, {
     id: 3,
     avatar: 'https://via.placeholder.com/150x150',
-    title: 'Regarding customization service',
-    description: [<span key={15} className="gx-link">Joy Parish</span>, " replied 2 days ago"],
+    title: 'Ken closed Education Check',
+    description: [<span key={15} className="gx-link">Closed</span>, " 3 hours ago"],
     status: 4
   }
 ];
