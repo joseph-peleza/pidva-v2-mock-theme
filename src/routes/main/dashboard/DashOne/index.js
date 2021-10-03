@@ -1,6 +1,8 @@
 import React from "react";
 import { Alert, Card, Col, Row } from "antd";
 import TinyBarChart from "routes/extensions/charts/recharts/bar/Components/TinyBarChart";
+import TinyBarChart2 from "routes/extensions/charts/recharts/bar/Components/TinyBarChart2";
+
 
 import { Area, AreaChart, Line, LineChart, ResponsiveContainer, Tooltip } from "recharts";
 import { increamentData, lineData } from "../../Metrics/data";
@@ -168,7 +170,7 @@ class DashOne extends React.Component {
           </Col>
           <Col lg={12} md={24} sm={24} xs={24}>
             <Card className="gx-card" title="In progres Reports TAT">
-              <TinyBarChart />
+              <TinyBarChart2 />
             </Card>
           </Col>
         </Row>
