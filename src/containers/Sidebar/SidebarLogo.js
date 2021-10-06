@@ -47,7 +47,7 @@ class SidebarLogo extends Component {
             <img alt="" src={require("assets/images/w-logo.png")}/> :
             themeType === THEME_TYPE_LITE ?
               <img alt="" src={require("assets/images/logo.png")}/> :
-              <img alt="" src={require("assets/images/logo.png")}/>}
+              <img alt="" src={require("assets/images/logo-white.png")}/>}
 
         </Link>
 
