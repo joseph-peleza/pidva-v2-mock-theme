@@ -1,9 +1,9 @@
 export const growthData = [
-  {name: 'Ken', price: 1200},
-  {name: 'Nephat', price: 600},
-  {name: 'Angel', price: 1200},
-  {name: 'Cynthia', price: 600},
-  {name: 'Cynthia', price: 900}
+  {name: 'Ken', report: 1200},
+  {name: 'Nephat', report: 600},
+  {name: 'Angel', report: 1200},
+  {name: 'Cynthia', report: 600},
+  {name: 'Cynthia', report: 900}
 
 ];
 export const growth2Data = [
@@ -78,13 +78,13 @@ export const queriesData = [
 ];
 
 export const increamentData = [
-  {name: 'Ken', price: 200},
-  {name: 'Nephat', price: 1200},
-  {name: 'Angel', price: 600},
-  {name: 'Cynthia', price: 1600},
-  {name: 'Joseph', price: 1000},
-  {name: 'Derrick', price: 2260},
-  {name: 'Catherine', price: 800},
+  {name: 'Ken', report: 200},
+  {name: 'Nephat', report: 1200},
+  {name: 'Angel', report: 600},
+  {name: 'Cynthia', report: 1600},
+  {name: 'Joseph', report: 1000},
+  {name: 'Derrick', report: 2260},
+  {name: 'Catherine', report: 800},
 ];
 
 export const increamentRevenueData = [
@@ -98,13 +98,13 @@ export const increamentRevenueData = [
 ];
 
 export const lineData = [
-  {name: 'Ken', price: 200},
-  {name: 'Nephat', price: 1100},
-  {name: 'Angel', price: 800},
-  {name: 'Cynthia', price: 1700},
-  {name: 'Joseph', price: 600},
-  {name: 'Derrick', price: 1800},
-  {name: 'Catherine', price: 600},
+  {name: 'Ken', report: 200},
+  {name: 'Nephat', report: 1100},
+  {name: 'Angel', report: 800},
+  {name: 'Cynthia', report: 1700},
+  {name: 'Joseph', report: 600},
+  {name: 'Derrick', report: 1800},
+  {name: 'Catherine', report: 600},
 ];
 
 export const lineData2 = [

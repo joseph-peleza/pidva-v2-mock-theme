@@ -1,5 +1,5 @@
 import React from "react";
-import {Table} from "antd";
+import {Col, Input, Row, Table} from "antd";
 import Widget from "components/Widget/index";
 import {Button } from "antd";
 
@@ -60,7 +60,7 @@ const columns = [
     title: 'Action',
     dataIndex: 'status',
     render: (text) => {
-      return <span className="gx-text-primary gx-pointer">
+      return <span className="gx-text-orange gx-pointer">
         <i className="icon icon-forward gx-fs-sm gx-mr-2"/>{text}</span>
     },
   },
@@ -77,7 +77,7 @@ const data = [
     dateRequested: '30 Sep 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a5.png',
     package: 'Standard',
-    status: 'Assign Person'
+    status: 'View'
   },
   {
     key: '2',
@@ -88,7 +88,7 @@ const data = [
     dateRequested: '17 Sep 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a6.png',
     package: 'Experienced',
-    status: 'Assign Person'
+    status: 'View'
   },
   {
     key: '3',
@@ -99,7 +99,7 @@ const data = [
     dateRequested: '10 Aug 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a7.png',
     package: 'Experienced',
-    status: 'Assign Person'
+    status: 'View'
   },
   {
     key: '4',
@@ -110,20 +110,38 @@ const data = [
     dateRequested: '28 July 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/domnic-harris.png',
     package: 'Experienced',
-    status: 'Assign Person'
+    status: 'View'
   }
-];
+]; 
+
+const Search = Input.Search;
 
 const SendMoney = () => {
   return (
     <Widget
       title={
-        <h2 className="h4 gx-text-capitalize gx-mb-0">
-          New Requests</h2>
+        <h2 className="h4 gx-text-capitalize gx-mb-0 gx-text-black">
+          New Requests
+        </h2>
       } extra={
       // <p className="gx-text-primary gx-mb-0 gx-pointer gx-d-none gx-d-sm-block">
       //   <i className="icon icon-add-circle gx-fs-lg gx-d-inline-flex gx-vertical-align-middle"/> Add New Request</p>
-      <Button type="default">View All Requests</Button>
+      <>
+      <Row>
+        <Col xl={13} lg={12} md={12} sm={12} xs={24}>
+        <Search
+          placeholder="Search for request.."
+          onSearch={value => console.log(value)}
+          style={{width: 200}}
+        />
+        </Col>
+
+        <Col xl={11} lg={12} md={12} sm={12} xs={24}>
+        <Button type="default">View All Requests</Button>
+        </Col>
+       
+      </Row>
+      </>
     }>
       <div className="gx-table-responsive">
         <Table className="ColSpan and RowSpan Table" columns={columns} dataSource={data} pagination={true}

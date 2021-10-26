@@ -134,19 +134,19 @@ export const ticketList = [
     id: 1,
     avatar: 'https://via.placeholder.com/150x150',
     title: 'Nephat applied for annual leave',
-    description: [<span className="gx-link" key={13}>Now</span>],
+    description: [<span className="gx-link" key={13}>Leave</span>, "  approved 2 mins ago"],
     status: 2
   }, {
     id: 2,
     avatar: 'https://via.placeholder.com/150x150',
-    title: "Lang'at applied For paternity leave.",
-    description: [<span key={14} className="gx-link">Yesterday</span>],
+    title: "Angel Reviewed a report for EABL",
+    description: [<span key={14} className="gx-link">Reviewed</span>, "15 mins ago"],
     status: 1
   }, {
     id: 3,
     avatar: 'https://via.placeholder.com/150x150',
-    title: 'Angel Applied for Maternity Leave.',
-    description: [<span key={15} className="gx-link">Approved</span>, " 2 days ago"],
+    title: 'Ken closed Education Check',
+    description: [<span key={15} className="gx-link">Closed</span>, " 3 hours ago"],
     status: 4
   }
 ];

@@ -2,7 +2,7 @@ import React from "react";
 
 import Widget from "components/Widget/index";
 
-const ChartCard = ({prize, title, children, styleName, desc, icon}) => {
+const ChartCard = ({prize, title, children, styleName, desc, icon, iconcolor}) => {
   return (
     <Widget styleName="gx-card-full">
 
@@ -15,7 +15,7 @@ const ChartCard = ({prize, title, children, styleName, desc, icon}) => {
             </span>
 
           </h2>
-          <i className={`icon icon-${icon} gx-fs-xl gx-ml-auto gx-text-primary gx-fs-xxxl`}/>
+          <i className={`icon icon-${icon} gx-fs-xl gx-ml-auto gx-text-${iconcolor} gx-fs-xxxl`}/>
         </div>
         <p className="gx-mb-0 gx-fs-sm gx-text-grey">{desc}</p>
       </div>
