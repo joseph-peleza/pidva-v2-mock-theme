@@ -5,8 +5,16 @@ import {Button } from "antd";
 
 const columns = [
   {
+    title: '#',
+    dataIndex: 'key',
+    render: (text, record) => {
+      return <span className="gx-text-grey">{record.key}</span>
+    },
+
+  },
+  {
     title: 'Ref',
-    dataIndex: 'dateRequested',
+    dataIndex: 'ref',
     render: (text, record) => {
       return <span className="gx-text-grey">{record.ref}</span>
     },
@@ -95,7 +103,7 @@ const data = [
     ref: 'R5GA6F',
     candidate: 'Victoria Onsare',
     client: 'Twiga Foods Ltd',
-    requestBy: 'Angel Matende',
+    requestBy: 'Angel',
     dateRequested: '10 Aug 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a7.png',
     package: 'Experienced',
