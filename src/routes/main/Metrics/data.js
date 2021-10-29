@@ -101,9 +101,9 @@ export const lineData = [
   {name: 'Ken', report: 200},
   {name: 'Nephat', report: 1100},
   {name: 'Angel', report: 800},
-  {name: 'Cynthia', report: 1700},
+  {name: 'Cynthia', report: 1600},
   {name: 'Joseph', report: 600},
-  {name: 'Derrick', report: 1800},
+  {name: 'Derrick', report: 1700},
   {name: 'Catherine', report: 600},
 ];
 

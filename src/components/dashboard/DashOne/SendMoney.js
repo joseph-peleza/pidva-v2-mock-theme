@@ -85,7 +85,7 @@ const data = [
     dateRequested: '30 Sep 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a5.png',
     package: 'Standard',
-    status: 'View'
+    status: 'Assign Specialist'
   },
   {
     key: '2',
@@ -96,7 +96,7 @@ const data = [
     dateRequested: '17 Sep 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a6.png',
     package: 'Experienced',
-    status: 'View'
+    status: 'Assign Specialist'
   },
   {
     key: '3',
@@ -107,7 +107,7 @@ const data = [
     dateRequested: '10 Aug 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/a7.png',
     package: 'Experienced',
-    status: 'View'
+    status: 'Assign Specialist'
   },
   {
     key: '4',
@@ -118,7 +118,7 @@ const data = [
     dateRequested: '28 July 2021',
     image: 'https://wieldy.g-axon.work/assets/images/avatar/domnic-harris.png',
     package: 'Experienced',
-    status: 'View'
+    status: 'Assign Specialist'
   }
 ]; 
 

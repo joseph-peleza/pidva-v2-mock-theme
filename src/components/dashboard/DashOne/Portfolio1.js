@@ -28,16 +28,16 @@ class Portfolio extends React.Component {
         <h2 className="h4 gx-mb-3">Best Performers</h2>
         <Row>
           <Col lg={12} md={12} sm={12} xs={24}>
-            <h2 className="gx-mr-2 gx-mb-0 gx-fs-xxxl gx-font-weight-medium">Marie Mwangi</h2>
+            <h2 className="gx-mr-2 gx-mb-0 gx-fs-xxxl gx-font-weight-medium">Nephat Johnson</h2>
             <br/>
             <br/>
             <div className="ant-row-flex">
               {/* <Avatar style={{ backgroundColor: this.state.color, verticalAlign: 'middle' }} size="large" className="gx-mr-2 gx-mb-0">
                 {this.state.user}
               </Avatar> */}
-              <Avatar className="gx-size-90" size="large" icon="user" src="https://wieldy.g-axon.work/assets/images/avatar/a8.png" />
+              <Avatar className="gx-size-90" size="large" icon="user" src="https://wieldy.g-axon.work/assets/images/avatar/domnic-harris.png" />
 
-              <Progress style={{ marginLeft: "20px" }} width={100} type="circle" percent={78} />
+              <Progress style={{ marginLeft: "20px" }} width={100} type="circle" percent={68} />
 
               {/* <h4 className="gx-pt-2 gx-chart-up">80% <i className="icon icon-menu-up gx-fs-sm" /></h4> */}
 
@@ -60,13 +60,13 @@ class Portfolio extends React.Component {
               <p className="gx-text-grey h4 gx-mb-3">Performance Summary</p>
               <ul className="gx-line-indicator gx-fs-lg gx-pb-1 gx-pb-sm-0">
                 <li>
-                  <LineIndicator width="78%" title="Finals Within TAT" color="green" value="78%" />
+                  <LineIndicator width="78%" title="Finals Within TAT" color="green" value="68%" />
                 </li>
                 <li>
-                  <LineIndicator width="38%" title="Finals Past TAT" color="red" value="48%" />
+                  <LineIndicator width="38%" title="Finals Past TAT" color="red" value="38%" />
                 </li>
                 <li>
-                  <LineIndicator width="24%" title="In progress" color="orange" value="34%" />
+                  <LineIndicator width="24%" title="In progress" color="orange" value="24%" />
                 </li>
               </ul>
               <br />

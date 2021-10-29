@@ -10,14 +10,15 @@ const ChartCard = ({prize, title, children, styleName, desc, icon, iconcolor}) =
         <div className="ant-row-flex">
           <h2 className="gx-mb-0 gx-fs-xxl gx-font-weight-medium">
             {prize}
-            <span className={`gx-mb-0 gx-ml-2 gx-pt-xl-2 gx-fs-lg gx-chart-${styleName}`}>{title}% <i
-              className="icon icon-menu-up gx-fs-sm"/>
-            </span>
+            {/* <span className={`gx-mb-0 gx-ml-2 gx-pt-xl-2 gx-fs-lg gx-chart-${styleName}`}>
+              {title}%
+              <i className="icon icon-menu-up gx-fs-sm"/>
+            </span> */}
 
           </h2>
           <i className={`icon icon-${icon} gx-fs-xl gx-ml-auto gx-text-${iconcolor} gx-fs-xxxl`}/>
         </div>
-        <p className="gx-mb-0 gx-fs-sm gx-text-grey">{desc}</p>
+        <p className={`gx-mb-0 gx-fs-xl gx-text-${iconcolor} gx-font-weight-medium`} >{desc}</p>
       </div>
       {children}
     </Widget>
