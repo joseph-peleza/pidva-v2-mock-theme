@@ -18,7 +18,7 @@ const ChartCard = ({prize, title, children, styleName, desc, icon, iconcolor}) =
           </h2>
           <i className={`icon icon-${icon} gx-fs-xl gx-ml-auto gx-text-${iconcolor} gx-fs-xxxl`}/>
         </div>
-        <p className={`gx-mb-0 gx-fs-xl gx-text-${iconcolor} gx-font-weight-medium`} >{desc}</p>
+        <p className={`gx-mb-0 gx-fs-lg gx-text-${iconcolor} gx-font-weight-medium`} >{desc}</p>
       </div>
       {children}
     </Widget>
